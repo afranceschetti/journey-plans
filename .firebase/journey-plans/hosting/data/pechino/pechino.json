@@ -1,0 +1,169 @@
+{
+    "key": "pechino",
+    "title": "Cina del nord",
+    "colors": {
+        "border": "#d1d133",
+        "background": "#ffffc9",
+        "second": "#ffff83"
+    },
+    "country": {
+        "code": "cn",
+        "label": "Cina"
+    },
+    "start": "10/17/2025",
+    "end": "10/24/2025",
+    "averageTemperature": 13.2,
+    "averagePrices": {
+        "food": 20,
+        "sleep": 80,
+        "car": 0
+    },
+    "returnTravel": {
+        "price": 240,
+        "duration": "15h30",
+        "company": "Hainan",
+        "stopover": [
+            {
+                "duration": "2h",
+                "location": "Shenzhen"
+            }
+        ],
+        "takeoff": {
+            "time": "10/24/2025 20:30",
+            "location": "Pechino"
+        },
+        "landing": {
+            "time": "10/25/2025 08:30",
+            "location": "Milano Malpensa"
+        }
+    },
+    "outboundTravel": {
+        "price": 240,
+        "duration": "18h",
+        "company": "Hainan",
+        "stopover": [
+            {
+                "duration": "2h25",
+                "location": "Chongqing"
+            }
+        ],
+        "takeoff": {
+            "time": "10/17/2025 12:35",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "10/18/2025 10:00",
+            "location": "Pechino"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Città proibita",
+            "price": 8,
+            "location": "Pechino",
+            "photos": [
+                "https://funlifecrisis.com/wp-content/uploads/2019/10/tips-for-visiting-the-forbidden-city-beijing-china.jpg"
+            ]
+        },
+        {
+            "title": "Palazzo d'estate",
+            "price": 4,
+            "location": "Pechino",
+            "photos": [
+                "https://cdn.audleytravel.com/1050/750/79/7994739-summer-palace-beijing.webp"
+            ]
+        },
+        {
+            "title": "Esercito di Terracotta",
+            "price": 15,
+            "location": "XI'An",
+            "photos": [
+                "https://wildgreatwall.com/wp-content/uploads/2024/01/Xian-Terracotta-Army-1.jpg",
+                "https://wildgreatwall.com/wp-content/uploads/2024/01/Xian-Terracotta-Army-4.jpg"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 2
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": -1
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "",
+            "note": ""
+        },
+        {
+            "what": "Riposo",
+            "where": "Pechino",
+            "note": ""
+        },
+        {
+            "what": "Città proibita, Palazzo d'estate",
+            "where": "Pechino",
+            "note": ""
+        },
+        {
+            "what": "Grande Muraglia",
+            "where": "Pechino",
+            "note": ""
+        },
+        {
+            "what": "Spostamneto a XI'an",
+            "where": "XI'an",
+            "note": "",
+            "internalTravel": {
+                "price": 62,
+                "description": "Treno veloce"
+            }
+        },
+        {
+            "what": "Esercito di Terracotta",
+            "where": "XI'an",
+            "note": ""
+        },
+        {
+            "what": "Ritorno a Pechino",
+            "where": "Pechino",
+            "note": "",
+            "internalTravel": {
+                "price": 62,
+                "description": "Treno veloce"
+            }
+        },
+        {
+            "what": "Pechino",
+            "where": "Giro finale",
+            "note": ""
+        },
+        {
+            "what": "Viaggio",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Tanto da vedere e girare",
+        "Cucina ottima (spero)",
+        "Un mondo sicuramente nuovo"
+    ],
+    "cons": [
+        "Non si sfrutta il costo del biglietto"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://images.squarespace-cdn.com/content/v1/5db2c1c870cf53160ba6a917/1573983384043-X16ZCMBWHLDJ3WJ46OHY/China39.jpeg"
+    }
+}

@@ -1,0 +1,90 @@
+.meta-wrapper
+    display: flex
+    gap: 1em
+    padding: 2rem
+    &.only-card
+        width: 100%
+        padding: 0
+        gap: 0
+        .meta-image-wrapper
+            aspect-ratio: 16/8.4
+            height: auto
+            width: 100%
+            .background-image
+                height: auto
+                width: 100%
+            .top-left
+                .title
+                    font-size: 3em
+                    padding-bottom: .05em
+                    padding-right: .1em
+            .info
+                font-size: .9em
+                gap: .6em
+                .separator
+                    display: none
+
+        .sidebar
+            display: none
+    .sidebar
+        display: flex
+        flex-direction: column
+
+.meta-image-wrapper
+    display: flex
+    height: 630px
+    width: 1200px
+    position: relative
+    overflow: hidden
+    .background-image
+        height: auto
+        width: 1200px
+        position: absolute
+        top: 0
+        left: 0
+    .top-left
+        position: absolute
+        top: 0
+        left: 0
+        color: white
+        .title
+            // text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+            font-size: 148px
+            line-height: 1
+            font-weight: bold
+            background: rgba(0,0,0,.7)
+            padding-bottom: 6px
+            padding-left: 12px
+            border-bottom-right-radius: .1em
+    .info
+        color: white
+        padding: .5em
+        display: flex
+        justify-content: flex-end
+        background: rgba(0,0,0,.7)
+        // text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5)
+        font-size: 36px
+        line-height: 1
+        font-weight: 500
+        position: absolute
+        width: 100%
+        left: 0
+        bottom: 0
+        gap: 1em
+        .feauters
+            display: flex
+            gap: .75em
+            color: #1ba1e2
+        .temperature
+            color: #2e6ff2
+        .total-duration
+            color: #60a917
+        .dates
+            color: #008a00
+        .cost
+            color: #dfcc2e
+        .separator
+            display: block
+            background: white
+            width: 3px
+            border-radius: 3px

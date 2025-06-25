@@ -1,0 +1,29 @@
+<ng-container *ngIf="plan">
+    <ng-container *ngIf="onlyCard">
+        <plan-card [plan]="plan"></plan-card>
+    </ng-container>
+    <ng-container *ngIf="!onlyCard">
+        <div class="home">
+            <a routerLink="/"><fa-icon [icon]="faHome"></fa-icon> Home</a>
+            <a routerLink="/plan-meta/{{plan.key}}"><fa-icon [icon]="faIdBadge"></fa-icon> Scheda riassuntiva</a>
+
+        </div>
+        <div class="plan-wrapper">
+            <plan-card [plan]="plan"></plan-card>
+            <div>
+
+                <div class="extras-wrapper">
+                    <div class="extra-item" *ngFor="let e of plan.extras">
+                        <h5>{{e.title}}</h5>
+                        <div>{{e.location}}</div>
+                        <div class="photos-wrapper">
+                            <div class="img-responsive" *ngFor="let p of e.photos ">
+                                <img [src]="p">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</ng-container>

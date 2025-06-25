@@ -1,0 +1,53 @@
+<div class="meta-wrapper" [ngClass]="{'only-card':onlyCard}">
+    <div class="meta-image-wrapper" *ngIf="plan" #planImage>
+        <img class="background-image" [src]="plan.meta.image">
+        <div class="top-left">
+            <div class="title" [style]="{'font-size':plan.meta.fontSize+'px'}" *ngIf="!onlyCard">{{plan.title}}</div>
+            <div class="title" *ngIf="onlyCard">{{plan.title}}</div>
+        </div>
+        <div class="info">
+            <div class="temperature main-info-item"><fa-icon [icon]="faTemperatureHalf"></fa-icon>
+                {{plan.averageTemperature}}°
+            </div>
+            <div class="separator"></div>
+            <div class="feauters">
+                <fa-icon [icon]="plan.points.culture.icon" *ngIf="plan.points.culture.value>0"></fa-icon>
+                <fa-icon [icon]="plan.points.nature.icon" *ngIf="plan.points.nature.value>0"></fa-icon>
+                <fa-icon [icon]="plan.points.wheater.icon" *ngIf="plan.points.wheater.value"></fa-icon>
+                <fa-icon [icon]="plan.points.price.icon" *ngIf="plan.points.price.value>0"></fa-icon>
+                <fa-icon [icon]="faCarSide" *ngIf="plan.averagePrices.car>0"></fa-icon>
+            </div>
+            <div class="separator"></div>
+            <div class="total-duration">{{plan.totalDuration}} giorni</div>
+            <div class="separator"></div>
+            <div class="dates"><fa-icon [icon]="faCalendar"></fa-icon> {{plan.start|date:'dd/MM'}} -
+                {{plan.end|date:'dd/MM'}}</div>
+            <div class="separator"></div>
+            <div class="cost">
+                {{plan.costs.total| number:'':'it'}} <fa-icon [icon]="faEuroSign"></fa-icon>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-item">
+            <button class="btn btn-default" (click)="downloadImage('png')">
+                <fa-icon [icon]="faFileImage"></fa-icon> Download image PNG</button>
+        </div>
+        <div class="sidebar-item">
+            <button class="btn btn-default" (click)="downloadImage('jpg')">
+                <fa-icon [icon]="faFileImage"></fa-icon> Download image JPG</button>
+        </div>
+        <div class="sidebar-item">
+            <button class="btn btn-default" (click)="downloadHtml()">
+                <fa-icon [icon]="faFileCode"></fa-icon> Download Html</button>
+        </div>
+        <div class="sidebar-item">
+            <button class="btn btn-default" (click)="shareLink()">
+                <fa-icon [icon]="faShareNodes"></fa-icon> Copia link per condividere</button>
+        </div>
+    </div>
+    <div id="downloadAsImage">
+        <img #canvas>
+        <a #downloadImageLink></a>
+    </div>
+</div>

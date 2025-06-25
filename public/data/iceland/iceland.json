@@ -1,0 +1,160 @@
+{
+    "key": "iceland",
+    "title": "Islanda",
+    "colors": {
+        "border": "#abd1f3",
+        "background": "#d8eafa",
+        "second": "#bad9f5"
+    },
+    "country": {
+        "code": "is",
+        "label": "Islanda"
+    },
+    "start": "11/01/2025",
+    "end": "11/06/2025",
+    "averageTemperature": 4,
+    "averagePrices": {
+        "food": 50,
+        "sleep": 180,
+        "car": 60
+    },
+    "returnTravel": {
+        "price": 75,
+        "duration": "4h15",
+        "company": "EasyJet",
+        "stopover": [],
+        "takeoff": {
+            "time": "11/06/2025 12:30",
+            "location": "Reykjavik"
+        },
+        "landing": {
+            "time": "11/06/2025 17:45",
+            "location": "Milano Malpensa"
+        }
+    },
+    "outboundTravel": {
+        "price": 75,
+        "duration": "4h40",
+        "company": "EasyJet",
+        "stopover": [],
+        "takeoff": {
+            "time": "11/01/2025 14:40",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "11/01/2025 18:20",
+            "location": "Reykjavik"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "La cascata Gullfoss",
+            "price": 0,
+            "location": "Circolo d'oro",
+            "photos": [
+                "https://cdn.sanity.io/images/lf2d8f6r/production/ed8c42edd0d47d8f83ea0a4dc78f2b527cd5f0e9-6000x4000.jpg?"
+            ]
+        },
+        {
+            "title": "Parco Nazionale di Thingvellir",
+            "price": 0,
+            "location": "Circolo d'oro",
+            "photos": [
+                "https://res.cloudinary.com/icelandtours/g_auto,f_auto,c_fill,w_3840,q_auto:good/thingvellir_national_park_winter_c320b536b8.jpg"
+            ]
+        },
+        {
+            "title": "Area geotermica di Geysir",
+            "price": 0,
+            "location": "Circolo d'oro",
+            "photos": [
+                "https://res.cloudinary.com/icelandtours/image/upload/v1723730891/geysir_winter_eruption_0c9ef6f587.jpg"
+            ]
+        },
+        {
+            "title": "Grotta di ghiaccio di cristallo blu",
+            "price": 151,
+            "location": "Vatnajökull",
+            "photos": [
+                "https://gti.images.tshiftcdn.com/8433882/x/0/.jpg?auto=format%2Ccompress&fit=crop&dpr=2&q=32&w=1520&h=1200"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 0
+        },
+        "wheater": {
+            "value": -1
+        },
+        "nature": {
+            "value": 2
+        },
+        "price": {
+            "value": -1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "",
+            "note": ""
+        },
+        {
+            "what": "La cascata Gullfoss, e Geysir",
+            "where": "Circolo d'oro",
+            "note": ""
+        },
+        {
+            "what": "Parco Nazionale di Thingvellir",
+            "where": "Circolo d'oro",
+            "note": ""
+        },
+        {
+            "what": "Laguna ghiacciaio Jokulsarlon ",
+            "where": "Vatnajokull",
+            "note": ""
+        },
+        {
+            "what": "Grotta di ghiaccio di cristallo blu",
+            "where": "Vatnajökull",
+            "note": ""
+        },
+        {
+            "what": "Ritorno",
+            "where": "Reykjavik",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Aurora Boreale",
+        "Nessuno di noi è mai stato",
+        "Natura e Paesaggi"
+    ],
+    "cons": [
+        "Potrebbe esserci brutto tempo",
+        "Non è detto che becchiamo l'aurora boreale",
+        "Le cascate di ghiaccio sono a 4h di macchina",
+        "Cucina cara e cattiva"
+    ],
+    "links": [
+        {
+            "label": "Islanda a novembre",
+            "url": "https://guidetoiceland.is/it/la-natura-islandese/islanda-a-novembre"
+        },
+        {
+            "label": "Aurora Boreale",
+            "url": "https://epiciceland.net/when-to-visit-iceland/"
+        },
+        {
+            "label": "Grotte di ghiaccio",
+            "url": "https://guidetoiceland.is/it/viaggi-e-vacanze-in-islanda/escursione-grotta-ghiacciaio-vatnajokull"
+        }
+    ],
+    "meta": {
+        "fontSize": "136",
+        "image": "https://yourdaytours.is/media/100267/gullfoss-waterfall-winter-golden-circle.jpg",
+        "image_": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/10/Semi-Frozen-Seljalandfoss-Waterfall-e1508455337491.jpg"
+    }
+}

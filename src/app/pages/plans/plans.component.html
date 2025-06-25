@@ -1,0 +1,8 @@
+<div class="plans" *ngIf="plans">
+    <div *ngFor="let p of plans" class="card">
+        <a routerLink="/plans/{{p}}">
+            <plan planKey="{{p}}" [onlyCard]="true"></plan>
+            <plan-meta planKey="{{p}}" [onlyCard]="true" *ngIf="false"></plan-meta>
+        </a>
+    </div>
+</div>

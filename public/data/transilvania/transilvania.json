@@ -1,0 +1,152 @@
+{
+    "key": "transilvania",
+    "title": "Transilvania",
+    "colors": {
+        "border": "#879c80",
+        "background": "#d6ded4",
+        "second": "#d6ded4"
+    },
+    "country": {
+        "code": "ro",
+        "label": "Romania"
+    },
+    "start": "10/17/2025",
+    "end": "10/24/2025",
+    "averageTemperature": 7.5,
+    "averagePrices": {
+        "food": 25,
+        "sleep": 80,
+        "car": 30
+    },
+    "returnTravel": {
+        "price": 38,
+        "duration": "2h05",
+        "company": "Ryanair",
+        "stopover": [],
+        "takeoff": {
+            "time": "10/24/2025 10:25",
+            "location": "Cluj-Napoca"
+        },
+        "landing": {
+            "time": "10/24/2025 11:30",
+            "location": "Milano Malpensa"
+        }
+    },
+    "outboundTravel": {
+        "price": 56,
+        "duration": "2h20",
+        "company": "WizzAir",
+        "stopover": [],
+        "takeoff": {
+            "time": "10/17/2025 22:15",
+            "location": "Torino"
+        },
+        "landing": {
+            "time": "10/18/2025 01:35",
+            "location": "Bucarest"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Stavropoleos Monastery",
+            "price": 0,
+            "location": "Bucarest",
+            "photos": [
+                "https://www.goeuropa.it/wp-content/uploads/sites/146/2021/08/romanian-orthodox-1335715_1920.jpg",
+                "https://lovinromania.com/wp-content/uploads/2023/04/stavropoleos-monastery-bucharest-2.jpg"
+            ]
+        },
+        {
+            "title": "Castello di Peles",
+            "price": 20,
+            "location": "Sinaia",
+            "photos": [
+                "https://traveltastefeel.com/wp-content/uploads/2022/03/peles-castle-1.jpg"
+            ]
+        },
+        {
+            "title": "Castello di Bran (Dracula)",
+            "price": 14,
+            "location": "Brașov",
+            "photos": [
+                "https://media.tacdn.com/media/attractions-splice-spp-674x446/0f/fa/c5/fe.jpg"
+            ]
+        },
+        {
+            "title": "Cheile Turzii - Gole di Tudra",
+            "price": "Gratis",
+            "location": "Tudra",
+            "photos": [
+                "https://images.locationscout.net/2016/12/gorges-of-turda-romania.webp?h=1400&q=80"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 2
+        },
+        "wheater": {
+            "value": 0
+        },
+        "nature": {
+            "value": 1
+        },
+        "price": {
+            "value": 2
+        }
+    },
+    "program": [
+        {
+            "what": "Andata",
+            "where": "Torino ➝ Bucarest",
+            "note": ""
+        },
+        {
+            "what": "Giro per la città",
+            "where": "Bucarest",
+            "note": ""
+        },
+        {
+            "what": "Stavropoleos Monastery",
+            "where": "Bucarest",
+            "note": ""
+        },
+        {
+            "what": "Castello di Peles",
+            "where": "Brașov",
+            "note": ""
+        },
+        {
+            "what": "Castello di Bran (Dracula)",
+            "where": "Brașov",
+            "note": ""
+        },
+        {
+            "what": "Transilvania",
+            "where": "Turda",
+            "note": ""
+        },
+        {
+            "what": "Giro per la città",
+            "where": "Cluj-Napoca",
+            "note": ""
+        },
+        {
+            "what": "Ritorno",
+            "where": "Cluj-Napoca ➝ Bergamo",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Natura",
+        "Economica"
+    ],
+    "cons": [
+        "Forse servono meno giorni"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e1/8f/b2/knock-on-the-door-of.jpg?w=1600&h=800&s=1"
+    }
+}
