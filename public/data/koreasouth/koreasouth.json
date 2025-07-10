@@ -1,6 +1,6 @@
 {
-    "key": "pechino",
-    "title": "Cina del nord",
+    "key": "koreasouth",
+    "title": "Corea del Sud",
     "colors": {
         "border": "#d1d133",
         "background": "#ffffc9",
@@ -8,7 +8,7 @@
     },
     "country": [
         {
-            "code": "cn",
+            "code": "kr",
             "label": "Cina"
         }
     ],
@@ -22,40 +22,40 @@
     },
     "returnTravel": {
         "price": 240,
-        "duration": "15h30",
-        "company": "Hainan",
+        "duration": "19h40",
+        "company": "Air China",
         "stopover": [
             {
-                "duration": "2h",
-                "location": "Shenzhen"
+                "duration": "6h30",
+                "location": "Pechino"
             }
         ],
         "takeoff": {
-            "time": "10/24/2025 20:30",
-            "location": "Pechino"
+            "time": "10/24/2025 17:50",
+            "location": "Incheon"
         },
         "landing": {
-            "time": "10/25/2025 08:30",
+            "time": "10/25/2025 06:30",
             "location": "Milano Malpensa"
         }
     },
     "outboundTravel": {
-        "price": 240,
-        "duration": "18h",
-        "company": "Hainan",
+        "price": 218,
+        "duration": "16h55",
+        "company": "Air China",
         "stopover": [
             {
-                "duration": "2h25",
-                "location": "Chongqing"
+                "duration": "2h40",
+                "location": "Chengdu"
             }
         ],
         "takeoff": {
-            "time": "10/17/2025 12:35",
+            "time": "10/17/2025 13:00",
             "location": "Milano Malpensa"
         },
         "landing": {
-            "time": "10/18/2025 10:00",
-            "location": "Pechino"
+            "time": "10/18/2025 12:55",
+            "location": "Incheon"
         }
     },
     "persons": 4,

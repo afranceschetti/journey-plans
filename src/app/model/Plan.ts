@@ -6,7 +6,7 @@ export class Plan {
     colors: Colors;
     averageTemperature: number;
     totalDuration: number;
-    country: { code: string, label: string };
+    countries: [{ code: string, label: string }];
     start: Date;
     end: Date;
     averagePrices: AveragePrices;
@@ -21,6 +21,7 @@ export class Plan {
     pro: string[];
     cons: string[];
     meta: Meta;
+    links: Link[];
 
     public static calcCosts(plan: Plan): Costs {
         let extrasCost = -1;
@@ -143,4 +144,9 @@ export class Costs {
 export interface Meta {
     image: string;
     fontSize: number
+}
+
+export interface Link {
+    label: string;
+    url: number
 }

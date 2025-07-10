@@ -17,6 +17,7 @@ import { faIdBadge } from '@fortawesome/free-regular-svg-icons';
 export class PlanComponent {
 
   @Input() onlyCard: boolean = false;
+  @Input() showDetail: boolean = true;
   @Input() planKey: string;
 
   faHome = faHome;
@@ -57,6 +58,8 @@ export class PlanComponent {
   }
 
   calcDaysDiff(first: Date, second: Date) {
+    console.log("first", first);
+    console.log("second", second);
     return Math.round((second.getTime() - first.getTime()) / (1000 * 60 * 60 * 24)) + 1
   }
 

@@ -29,6 +29,8 @@ export class PlanCardComponent {
   @Input()
   plan: Plan;
 
+  @Input()
+  showDetail: boolean = false;
 
   constructor() { }
 

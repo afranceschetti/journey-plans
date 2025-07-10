@@ -6,10 +6,12 @@
         "background": "#dcd1c4",
         "second": "#c6b39e"
     },
-    "country": {
-        "code": "gr",
-        "label": "Grecia"
-    },
+    "country": [
+        {
+            "code": "gr",
+            "label": "Grecia"
+        }
+    ],
     "start": "10/16/2025",
     "end": "10/23/2025",
     "averageTemperature": 16,
@@ -143,7 +145,7 @@
         "Non sono riuscito a trovare cose da vedere"
     ],
     "meta": {
-        "fontSize": "96",
+        "fontSize": "72",
         "image": "https://www.tovima.com/wp-content/uploads/2025/06/09/shutterstock_2481008745-scaled.jpg"
     }
 }

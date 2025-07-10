@@ -1,11 +1,31 @@
-
-.plans
-    padding: 1rem
+@import '../../../styles/settings/_variables.sass'
+.countries
     display: flex
-    gap: 2rem
-    flex-wrap: wrap
+    flex-direction: column
+    .country
+        display: flex
+        gap: 1rem
+        border-bottom: 2px solid #bbb
+        h2
+            writing-mode: vertical-rl
+            text-align: right
+            transform: rotate(180deg)
+            background: #ddd
+            padding: 2rem .5rem
+            margin: 0
+    .plans
+        padding: 1rem 1rem 1rem 1rem
+        display: flex
+        gap: 2rem
+        flex-wrap: wrap
+        align-items: flex-start
+        @media (max-width: 767.98px)
+            gap: 6rem
+            flex-direction: column
+            padding: 1rem 0
 
-    // .card
-    //     width: 600px
-    //     height: 315px
-    //     transform: scale(0.5, 0.5)
+        .card
+            box-shadow: $box-shadow
+        //     width: 600px
+        //     height: 315px
+        //     transform: scale(0.5, 0.5)

@@ -1,0 +1,190 @@
+{
+    "key": "caspiansea",
+    "title": "Mar Caspio",
+    "colors": {
+        "border": "#c2a86c",
+        "background": "#faf1dd",
+        "second": "#ffff83"
+    },
+    "countries": [
+        {
+            "code": "az",
+            "label": "Azerbaigian"
+        },
+        {
+            "code": "kz",
+            "label": " Kazakistan"
+        }
+    ],
+    "start": "09/23/2025",
+    "end": "10/01/2025",
+    "averageTemperature": 14.1,
+    "averagePrices": {
+        "food": 25,
+        "sleep": 40,
+        "car": 25
+    },
+    "outboundTravel": {
+        "price": 260,
+        "duration": "4h40",
+        "company": "Azerbaijan Airlines",
+        "stopover": [],
+        "takeoff": {
+            "time": "09/23/2025 11:25",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "09/23/2025 18:05",
+            "location": "Baku"
+        }
+    },
+    "returnTravel": {
+        "price": 227,
+        "duration": "10h30",
+        "company": "Azerbaijan Airlines",
+        "stopover": [
+            {
+                "duration": "4h10",
+                "location": "Baku"
+            }
+        ],
+        "takeoff": {
+            "time": "10/01/2025 2:55",
+            "location": "Aktau"
+        },
+        "landing": {
+            "time": "10/01/2025 10:25",
+            "location": "Milano Malpensa"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Baku",
+            "price": 0,
+            "location": "Baku",
+            "photos": [
+                "https://siviaggia.it/wp-content/uploads/sites/2/2024/05/Baku.jpg"
+            ]
+        },
+        {
+            "title": "Riserva dei Petroglifi di Qobustan",
+            "price": 0,
+            "location": "Baku",
+            "photos": [
+                "https://images.lonelyplanetitalia.it/uploads/AV5UZy1WrQHNYAm6Ax5gEbIfvoA5z3Bd.jpg?q=80&p=slider&s=581f04996c41cfc1bf520917e8e34c4a"
+            ]
+        },
+        {
+            "title": "Mangghystau",
+            "price": 0,
+            "location": "Aktau",
+            "photos": [
+                "https://images.lonelyplanetitalia.it/uploads/gettyrf-672748094?q=80&p=slider&s=d47772cc7bb210f8d055137de33a9030"
+            ]
+        },
+        {
+            "title": "Deserto di Bozzhira",
+            "price": 0,
+            "location": "Aktau",
+            "photos": [
+                "https://www.marcovasta.net/viaggi/Mangystau/Immagini/Mangystau55bozzhira02.jpg"
+            ]
+        },
+        {
+            "title": "Kyzylkup (Montagne Tiramisù)",
+            "price": 0,
+            "location": "Aktau",
+            "photos": [
+                "https://www.advantour.com/img/kazakhstan/mangystau/kyzylkup.jpg"
+            ]
+        },
+        {
+            "title": "Lago d'Aral",
+            "price": 0,
+            "location": "Aktau",
+            "photos": [
+                "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRBEfAhropNV-Y4_JXkhwrOTMsJL8LHfJjAshN0ljDMiRVbMyrEodNkj0fc2UW98xIm_tPHtPd08LriyjZr_qQw4qJj4R0lsXJQMk2b-w"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 0
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 2
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "Milano-Baku",
+            "note": ""
+        },
+        {
+            "what": "Riserva dei Petroglifi di Qobustan",
+            "where": "Baku",
+            "note": ""
+        },
+        {
+            "what": "Giro e spostamento",
+            "where": "Baky-Aktau",
+            "note": "Aereo 23:50-01:55",
+            "internalTravel": {
+                "price": 70,
+                "description": ""
+            }
+        },
+        {
+            "what": "Mangghystau",
+            "where": "Aktau",
+            "note": ""
+        },
+        {
+            "what": "Deserto di Bozzhira",
+            "where": "Aktau",
+            "note": ""
+        },
+        {
+            "what": "Kyzylkup (Montagne Tiramisù)",
+            "where": "Aktau",
+            "note": "Notte in Yurta"
+        },
+        {
+            "what": "Lago d'Aral",
+            "where": "Aktau",
+            "note": ""
+        },
+        {
+            "what": "Giro Città",
+            "where": "Aktau",
+            "note": ""
+        },
+        {
+            "what": "Viaggio di ritorno",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Tanta natura da vedere",
+        "Posti nuovi"
+    ],
+    "cons": [
+        "Viaggio di ritorno scomodo",
+        "Il lago d'Aral è lontano, bisogna organizzare bene il viaggio, non tappa ferma, ma itinerario"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://www.overland-viaggi.com/wp-content/uploads/2025/01/IMG_4234-scaled.jpg"
+    },
+    "links": []
+}

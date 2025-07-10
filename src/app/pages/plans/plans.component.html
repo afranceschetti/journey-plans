@@ -1,8 +1,12 @@
-<div class="plans" *ngIf="plans">
-    <div *ngFor="let p of plans" class="card">
-        <a routerLink="/plans/{{p}}">
-            <plan planKey="{{p}}" [onlyCard]="true"></plan>
-            <plan-meta planKey="{{p}}" [onlyCard]="true" *ngIf="false"></plan-meta>
-        </a>
+<div class="countries" *ngIf="plans">
+    <div *ngFor="let c of plans" class="country">
+        <h2>{{c.country}}</h2>
+        <div class="plans">
+            <div *ngFor="let p of c.plans" class="card">
+                <a routerLink="/plans/{{p}}">
+                    <plan planKey="{{p}}" [onlyCard]="true" [showDetail]="false"></plan>
+                </a>
+            </div>
+        </div>
     </div>
 </div>

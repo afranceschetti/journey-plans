@@ -1,0 +1,196 @@
+{
+    "key": "kazakistan",
+    "title": "Kazakistan",
+    "colors": {
+        "border": "#ceb12e",
+        "background": "#efe5b8",
+        "second": "#ffff83"
+    },
+    "country": [
+        {
+            "code": "kz",
+            "label": "Kazakistan"
+        }
+    ],
+    "start": "09/27/2025",
+    "end": "10/05/2025",
+    "averageTemperature": 14.1,
+    "averagePrices": {
+        "food": 25,
+        "sleep": 40,
+        "car": 25
+    },
+    "outboundTravel": {
+        "price": 221,
+        "duration": "10h05",
+        "company": "Lufthansa",
+        "stopover": [
+            {
+                "duration": "2h00",
+                "location": "Francoforte"
+            }
+        ],
+        "takeoff": {
+            "time": "09/27/2025 9:10",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "09/27/2025 22:15",
+            "location": "Astana"
+        }
+    },
+    "returnTravel": {
+        "price": 224,
+        "duration": "10h25",
+        "company": "Lufthansa",
+        "stopover": [
+            {
+                "duration": "1h00",
+                "location": "Francoforte"
+            }
+        ],
+        "takeoff": {
+            "time": "10/05/2025 3:15",
+            "location": "Almaty"
+        },
+        "landing": {
+            "time": "10/05/2025 10:40",
+            "location": "Milano Malpensa"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Astana",
+            "price": 0,
+            "location": "Astana",
+            "photos": [
+                "https://www.atacama.it/wp-content/uploads/2020/02/KAZAKISTAN-cami-moschea-1920x1000.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Another_view_of_Downtown_Astana_%286245921591%29.jpg/2560px-Another_view_of_Downtown_Astana_%286245921591%29.jpg",
+                "https://img.static-kl.com/images/media/D9594C47-A3B7-4783-BCD02D6E552D74D3",
+                "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSIjwZlobwJOq6vrQ1tz2v9rgzqMvFO75btWzD1X1PzOMNKxEBHHIa5D0aFtJKrxOgdrWM7khKHid2gQjINCW8hTk3SEJzEakspi4d0vg"
+            ]
+        },
+        {
+            "title": "Parco Nazionale di Bayanaul",
+            "price": 0,
+            "location": "Astana",
+            "photos": [
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Mount_Bulka.jpg/2880px-Mount_Bulka.jpg"
+            ]
+        },
+        {
+            "title": "Parco Nazionale Altyn-Emel",
+            "price": 0,
+            "location": "Almaty",
+            "photos": [
+                "https://img.freepik.com/foto-premium/parco-nazionale-di-altyn-emel-in-kazakhstan-una-vista-delle-montagne-bianche-di-aktau-dall-alto_272999-2059.jpg"
+            ]
+        },
+        {
+            "title": "Laghi Kaindy e Kolsay",
+            "price": 0,
+            "location": "Almaty",
+            "photos": [
+                "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nok42ayx2cijbJSArj5aedH7-USwr4uLty74k2YnESk-iEWQqPtpiF-rXUCBeqXxQrLIkP8cmLpnhkZ3Vnhk0ttCnkqN0-K_Kg1xHo8Al2zVSMOiZfTZbIYPmoPLPS2ogzdBJJk=w1350-h780-n-k-no",
+                "https://img1.wsimg.com/isteam/ip/54df45e4-dabc-47fa-93b4-6fad1ac0fd0f/E6A7CDFF-427E-499F-B530-9CD07318FD1E.jpeg"
+            ]
+        },
+        {
+            "title": "Charyn Canyon",
+            "price": 0,
+            "location": "Almaty",
+            "photos": [
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/41/27/12/154-300-12.jpg",
+                "https://www.atacama.it/wp-content/uploads/2020/02/KAZAKISTAN-Almaty-canyon-1920x1000.jpg"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 0
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 2
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "",
+            "note": ""
+        },
+        {
+            "what": "Giro Città",
+            "where": "Astana",
+            "note": ""
+        },
+        {
+            "what": "Parco Nazionale di Bayanaul",
+            "where": "Astana",
+            "note": ""
+        },
+        {
+            "what": "Parco Nazionale di Bayanaul",
+            "where": "Astana-Almaty",
+            "note": "Aereo 20:00-21:40",
+            "internalTravel": {
+                "price": 27,
+                "description": ""
+            }
+        },
+        {
+            "what": "Laghi Kaindy e Kolsay oppure Charyn Canyon",
+            "where": "Almaty",
+            "note": ""
+        },
+        {
+            "what": "Parco Nazionale Altyn-Emel",
+            "where": "Altyn-Emel",
+            "note": "Notte in Yurta"
+        },
+        {
+            "what": "Parco Nazionale Altyn-Emel",
+            "where": "Altyn-Emel",
+            "note": ""
+        },
+        {
+            "what": "Giro Città",
+            "where": "Almaty",
+            "note": ""
+        },
+        {
+            "what": "Viaggio di ritorno",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Tanta natura da vedere",
+        "Posti nuovi"
+    ],
+    "cons": [
+        "Viaggio di ritorno scomodo"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSH6wnSi4PPJRSsD3KwrzXTaXIJ85IzUZHmsrBud2QudHrWmyWipjIyU0ZdBTFP9HrMTi_Av5ng15jVHjJmq0QFQQ9GC0wl1gM5RwdyW_M"
+    },
+    "links": [
+        {
+            "label": "Il meglio del Kazakistan",
+            "url": "https://www.atacama.it/viaggio/kazakistan-il-meglio-del-kazakistan/"
+        },
+        {
+            "label": "Consigli di viaggio",
+            "url": "https://www.travel365.it/kazakistan-cosa-vedere-itinerari.htm#quando-andare-kazakistan"
+        }
+    ]
+}

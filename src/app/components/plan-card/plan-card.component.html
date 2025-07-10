@@ -1,180 +1,202 @@
 <div class="plan plan-{{plan.key}}" #planPanel *ngIf="plan" [style.--border-color]="plan.colors.border"
     [style.--background-color]="plan.colors.background" [style.--secondary-color]="plan.colors.secondary">
 
-    <div class="postcard"> <plan-meta planKey="{{plan.key}}" [onlyCard]="true"></plan-meta></div>
-    <div class="header">
-        <div class="title">{{plan.country.label}} </div>
-        <div class="flag-wrapper">
-            <img src="https://flagcdn.com/h20/{{plan.country.code}}.png">
+    <div class="postcard" role="button" (click)="showDetail=!showDetail" [ngClass]="{'detail-close':!showDetail}">
+        <plan-meta planKey="{{plan.key}}" [onlyCard]="true"></plan-meta>
+    </div>
+    <div *ngIf="showDetail" class="detail">
+
+        <div class="header">
+            <div class="title"><span *ngFor="let c of plan.countries">{{c.label}}</span> </div>
+            <div class="flag-wrapper">
+                <img *ngFor="let c of plan.countries" src="https://flagcdn.com/h20/{{c.code}}.png">
+            </div>
         </div>
-    </div>
-    <div class="main-info">
-        <div class="dates main-info-item">{{plan.start|date:'dd/MM/yyyy'}} - {{plan.end|date:'dd/MM/yyyy'}}</div>
-        <div class="temperature main-info-item">Temperatura media {{plan.averageTemperature}}°</div>
-        <div class="total-duration">Durata: {{plan.totalDuration}} gg</div>
-    </div>
-    <div class="label-row">
-        Viaggio
-    </div>
-    <div class="trip trip-outbound">
-        <div class="trip-main">
-            <fa-icon [icon]="faPlane" class="icon-plane"></fa-icon>
-            <div class="airport">{{plan.outboundTravel.takeoff.location}}</div>
-            <div class="airport-arrow"> &rarr;</div>
-            <div class="airport text-end">{{plan.outboundTravel.landing.location}}</div>
+        <div class="main-info">
+            <div class="dates main-info-item">{{plan.start|date:'dd/MM/yyyy'}} - {{plan.end|date:'dd/MM/yyyy'}}</div>
+            <div class="temperature main-info-item">Temperatura media {{plan.averageTemperature}}°</div>
+            <div class="total-duration">Durata: {{plan.totalDuration}} gg</div>
         </div>
-        <div class="trip-info">
-            <div class="trip-info-item"><strong>Compagnia</strong>: {{plan.outboundTravel.company}}</div>
-            <div class="trip-info-item"><strong>Durata</strong>: {{plan.outboundTravel.duration}}</div>
-            <ng-container *ngIf="plan.outboundTravel.stopover.length>0;else noStopover">
-                <div><strong>Scali</strong>:
-                    <ng-container *ngFor="let s of plan.outboundTravel.stopover">
-                        {{s.location}} {{s.duration}}
-                    </ng-container>
+        <div class="label-row">
+            Viaggio
+        </div>
+        <div class="trip trip-outbound">
+            <div class="trip-main">
+                <fa-icon [icon]="faPlane" class="icon-plane"></fa-icon>
+                <div class="airport">
+                    {{plan.outboundTravel.takeoff.location}}<small>{{plan.outboundTravel.takeoff.time}}</small></div>
+                <div class="airport-arrow"> &rarr;</div>
+                <div class="airport text-end">
+                    {{plan.outboundTravel.landing.location}}<small>{{plan.outboundTravel.landing.time}}</small></div>
+            </div>
+            <div class="trip-info">
+                <div class="trip-info-item"><strong>Compagnia</strong>: {{plan.outboundTravel.company}}</div>
+                <div class="trip-info-item"><strong>Durata</strong>: {{plan.outboundTravel.duration}}</div>
+                <ng-container *ngIf="plan.outboundTravel.stopover.length>0;else noStopover">
+                    <div><strong>Scali</strong>:
+                        <ng-container *ngFor="let s of plan.outboundTravel.stopover">
+                            {{s.location}} {{s.duration}}
+                        </ng-container>
+                    </div>
+                </ng-container>
+                <ng-template #noStopover><strong>Volo diretto</strong></ng-template>
+            </div>
+        </div>
+        <div class="trip">
+            <div class="trip-main">
+                <fa-icon [icon]="faPlane" class="icon-plane" [rotate]="180"></fa-icon>
+                <div class="airport">{{plan.returnTravel.takeoff.location}}
+                    <small>{{plan.returnTravel.takeoff.time}}</small>
                 </div>
-            </ng-container>
-            <ng-template #noStopover><strong>Volo diretto</strong></ng-template>
-        </div>
-    </div>
-    <div class="trip">
-        <div class="trip-main">
-            <fa-icon [icon]="faPlane" class="icon-plane" [rotate]="180"></fa-icon>
-            <div class="airport">{{plan.returnTravel.takeoff.location}}</div>
-            <div class="airport-arrow"> &rarr;</div>
-            <div class="airport  text-end">{{plan.returnTravel.landing.location}}</div>
-        </div>
-        <div class="trip-info">
-            <div class="trip-info-item"><strong>Compagnia</strong>: {{plan.returnTravel.company}}</div>
-            <div class="trip-info-item"><strong>Durata</strong>: {{plan.returnTravel.duration}}</div>
-            <ng-container *ngIf="plan.returnTravel.stopover.length>0;else noStopover">
-                <div><strong>Scali</strong>:
-                    <ng-container *ngFor=" let s of plan.returnTravel.stopover">
-                        {{s.location}} {{s.duration}}
-                    </ng-container>
+                <div class="airport-arrow"> &rarr;</div>
+                <div class="airport">
+                    {{plan.returnTravel.landing.location}}
+                    <small>{{plan.returnTravel.landing.time}}</small>
                 </div>
-            </ng-container>
-            <ng-template #noStopover><strong>Volo diretto</strong></ng-template>
+            </div>
+
+            <div class="trip-info">
+                <div class="trip-info-item"><strong>Compagnia</strong>: {{plan.returnTravel.company}}</div>
+                <div class="trip-info-item"><strong>Durata</strong>: {{plan.returnTravel.duration}}</div>
+                <ng-container *ngIf="plan.returnTravel.stopover.length>0;else noStopover">
+                    <div><strong>Scali</strong>:
+                        <ng-container *ngFor=" let s of plan.returnTravel.stopover">
+                            {{s.location}} {{s.duration}}
+                        </ng-container>
+                    </div>
+                </ng-container>
+                <ng-template #noStopover><strong>Volo diretto</strong></ng-template>
+            </div>
         </div>
-    </div>
-    <div class="label-row">
-        <div>Costi</div>
-        <div>
-            <label>N° Persone</label>
-            <input type="number" min="2" max="8" step="1" [(ngModel)]="plan.persons" name="person"
-                (change)="refreshCost()">
+        <div class="label-row">
+            <div>Costi</div>
+            <div>
+                <label>N° Persone</label>
+                <input type="number" min="2" max="8" step="1" [(ngModel)]="plan.persons" name="person"
+                    (change)="refreshCost()">
+            </div>
         </div>
-    </div>
-    <div class="prices">
+        <div class="prices">
 
-        <table class="table-prices">
-            <tbody>
-                <tr>
-                    <th>Viaggio Principale </th>
-                    <td></td>
-                    <td>{{plan.costs.mainTravel}} &euro;</td>
-                </tr>
-                <tr>
-                    <th>Mangiare</th>
-                    <td class="avg-price">{{plan.averagePrices.food}}&euro;/g</td>
-                    <td>{{plan.costs.food}} &euro;</td>
-                </tr>
-                <tr>
-                    <th>Dormire</th>
-                    <td class="avg-price">{{plan.averagePrices.sleep}}&euro;/g</td>
-                    <td>{{plan.costs.sleep}} &euro;</td>
-                </tr>
-                <tr *ngIf="plan.costs.car>0">
-                    <th>Automobile</th>
-                    <td></td>
-                    <td>{{plan.costs.car}} &euro;</td>
-                </tr>
-                <tr *ngIf="plan.costs.internalTravel>0">
-                    <th>Spostamenti interni</th>
-                    <td></td>
-                    <td>{{plan.costs.internalTravel}} &euro;</td>
-                </tr>
-                <tr *ngIf="plan.costs.extras>0">
-                    <th>Extra</th>
-                    <td></td>
-                    <td>{{plan.costs.extras}} &euro;</td>
-                </tr>
-                <tr class="total">
-                    <th>Totale</th>
-                    <td></td>
-                    <td>{{plan.costs.total| number:'':'it'}} &euro;</td>
-                </tr>
+            <table class="table-prices">
+                <tbody>
+                    <tr>
+                        <th>Viaggio Principale </th>
+                        <td></td>
+                        <td>{{plan.costs.mainTravel}} &euro;</td>
+                    </tr>
+                    <tr>
+                        <th>Mangiare</th>
+                        <td class="avg-price">{{plan.averagePrices.food}}&euro;/g</td>
+                        <td>{{plan.costs.food}} &euro;</td>
+                    </tr>
+                    <tr>
+                        <th>Dormire</th>
+                        <td class="avg-price">{{plan.averagePrices.sleep}}&euro;/g</td>
+                        <td>{{plan.costs.sleep}} &euro;</td>
+                    </tr>
+                    <tr *ngIf="plan.costs.car>0">
+                        <th>Automobile</th>
+                        <td></td>
+                        <td>{{plan.costs.car}} &euro;</td>
+                    </tr>
+                    <tr *ngIf="plan.costs.internalTravel>0">
+                        <th>Spostamenti interni</th>
+                        <td></td>
+                        <td>{{plan.costs.internalTravel}} &euro;</td>
+                    </tr>
+                    <tr *ngIf="plan.costs.extras>0">
+                        <th>Extra</th>
+                        <td></td>
+                        <td>{{plan.costs.extras}} &euro;</td>
+                    </tr>
+                    <tr class="total">
+                        <th>Totale</th>
+                        <td></td>
+                        <td>{{plan.costs.total| number:'':'it'}} &euro;</td>
+                    </tr>
 
-            </tbody>
-        </table>
-    </div>
-    <div class="label-row">
-        Programma
-    </div>
-    <div class="program">
-        <table class="table-program ">
-            <tr *ngFor="let d of plan.program">
-                <td>{{d.date|date:"dd/MM"}}</td>
-                <td>{{d.where}}</td>
-                <td>{{d.what}}</td>
-                <td>{{d.note}}</td>
-                <td>
-                    <ng-container *ngIf="d.internalTravel">
-                        {{d.internalTravel.description}}
-                    </ng-container>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="label-row">
-        Attrazioni
-    </div>
-    <div class="extras">
-        <table class="table-extras">
-            <tr *ngFor="let e of plan.extras" class="extra-item">
-                <th class="title">{{e.title}}</th>
-                <td class="location">{{e.location}}</td>
-                <td class="price" *ngIf="e.price && e.price>0;else extraGratis">{{e.price}}&euro;</td>
-                <ng-template #extraGratis>
-                    <td class="price"><small>Gratis</small></td>
-                </ng-template>
-            </tr>
-        </table>
-    </div>
-    <div class="label-row">
-        Valutazione
-    </div>
-    <div class="points">
-        <table class="table-points">
-            <tbody>
-                <tr *ngFor="let p of plan.points|keyvalue" class="point-row point-{{p.value.value}}">
-                    <td class="point-faces"><fa-icon [icon]="p.value.icon"></fa-icon></td>
-                    <td> <span class="label">{{p.value.label}}</span> </td>
-                    <td class="point-faces">
-                        <div class="face-wrapper">
-                            <fa-icon [icon]="faFaceGrinStars" class="face" *ngIf="p.value.value===2"></fa-icon>
-                            <fa-icon [icon]="faFaceSmile" class="face" *ngIf="p.value.value===1"></fa-icon>
-                            <fa-icon [icon]="faFaceMeh" class="face" *ngIf="p.value.value===0"></fa-icon>
-                            <fa-icon [icon]="faFaceFrown" class="face" *ngIf="p.value.value===-1"></fa-icon>
-                            <fa-icon [icon]="faFaceDizzy" class="face" *ngIf="p.value.value===-2"></fa-icon>
-
-                        </div>
+                </tbody>
+            </table>
+        </div>
+        <div class="label-row">
+            Programma
+        </div>
+        <div class="program">
+            <table class="table-program ">
+                <tr *ngFor="let d of plan.program">
+                    <td>{{d.date|date:"dd/MM"}}</td>
+                    <td>{{d.where}}</td>
+                    <td>{{d.what}}</td>
+                    <td>{{d.note}}</td>
+                    <td>
+                        <ng-container *ngIf="d.internalTravel">
+                            {{d.internalTravel.description}}
+                        </ng-container>
                     </td>
                 </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="pro-cons">
-        <div class="pro">
-            <div class="label-row "><strong>Pro</strong></div>
-            <ul>
-                <li *ngFor="let p of plan.pro">{{p}}</li>
-            </ul>
+            </table>
         </div>
-        <div class="cons">
-            <div class="label-row"><strong>Contro</strong></div>
-            <ul>
-                <li *ngFor="let c of plan.cons">{{c}}</li>
+        <div class="label-row">
+            Attrazioni
+        </div>
+        <div class="extras">
+            <table class="table-extras">
+                <tr *ngFor="let e of plan.extras" class="extra-item">
+                    <th class="title">{{e.title}}</th>
+                    <td class="location">{{e.location}}</td>
+                    <td class="price" *ngIf="e.price && e.price>0;else extraGratis">{{e.price}}&euro;</td>
+                    <ng-template #extraGratis>
+                        <td class="price"><small>Gratis</small></td>
+                    </ng-template>
+                </tr>
+            </table>
+        </div>
+        <div class="label-row">
+            Valutazione
+        </div>
+        <div class="points">
+            <table class="table-points">
+                <tbody>
+                    <tr *ngFor="let p of plan.points|keyvalue" class="point-row point-{{p.value.value}}">
+                        <td class="point-faces"><fa-icon [icon]="p.value.icon"></fa-icon></td>
+                        <td> <span class="label">{{p.value.label}}</span> </td>
+                        <td class="point-faces">
+                            <div class="face-wrapper">
+                                <fa-icon [icon]="faFaceGrinStars" class="face" *ngIf="p.value.value===2"></fa-icon>
+                                <fa-icon [icon]="faFaceSmile" class="face" *ngIf="p.value.value===1"></fa-icon>
+                                <fa-icon [icon]="faFaceMeh" class="face" *ngIf="p.value.value===0"></fa-icon>
+                                <fa-icon [icon]="faFaceFrown" class="face" *ngIf="p.value.value===-1"></fa-icon>
+                                <fa-icon [icon]="faFaceDizzy" class="face" *ngIf="p.value.value===-2"></fa-icon>
+
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="pro-cons">
+            <div class="pro">
+                <div class="label-row "><strong>Pro</strong></div>
+                <ul>
+                    <li *ngFor="let p of plan.pro">{{p}}</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <div class="label-row"><strong>Contro</strong></div>
+                <ul>
+                    <li *ngFor="let c of plan.cons">{{c}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="links" *ngIf="plan.links">
+            <div class="label-row "><strong>Link </strong></div>
+            <ul class="">
+                <li *ngFor="let link of plan.links">
+                    <a [href]="link.url" target="_blank">{{link.label}}</a>
+                </li>
             </ul>
+
         </div>
     </div>
 </div>

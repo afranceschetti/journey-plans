@@ -1,5 +1,25 @@
 [
-    "iceland",
-    "greeknorth",
-    "transilvania"
+    {
+        "country": "Europa",
+        "plans": [
+            "iceland",
+            "greeknorth",
+            "transilvania"
+        ]
+    },
+    {
+        "country": "Estremo Oriente",
+        "plans": [
+            "pechino"
+        ]
+    },
+    {
+        "country": "Asia Centrale",
+        "plans": [
+            "rajasthan",
+            "uzbekistan",
+            "kazakistan",
+            "caspiansea"
+        ]
+    }
 ]

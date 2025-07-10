@@ -1,0 +1,185 @@
+{
+    "key": "uzbekistan",
+    "title": "Uzbekistan",
+    "colors": {
+        "border": "#158fd1",
+        "background": "#bfe9ff",
+        "second": "#ffff83"
+    },
+    "country": [
+        {
+            "code": "uz",
+            "label": "Uzbekistan"
+        }
+    ],
+    "start": "10/14/2025",
+    "end": "10/21/2025",
+    "averageTemperature": 14.1,
+    "averagePrices": {
+        "food": 25,
+        "sleep": 60,
+        "car": 0
+    },
+    "returnTravel": {
+        "price": 312,
+        "duration": "15h30",
+        "company": "Azerbaijan Airlines",
+        "stopover": [
+            {
+                "duration": "3h",
+                "location": "Baku"
+            }
+        ],
+        "takeoff": {
+            "time": "10/21/2025 2:20",
+            "location": "Tashkent"
+        },
+        "landing": {
+            "time": "10/21/2025 10:25",
+            "location": "Milano Malpensa"
+        }
+    },
+    "outboundTravel": {
+        "price": 293,
+        "duration": "11h30",
+        "company": "Azerbaijan Airlines",
+        "stopover": [
+            {
+                "duration": "4h50",
+                "location": "Baku"
+            }
+        ],
+        "takeoff": {
+            "time": "10/14/2025 11:25",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "10/15/2025 01:55",
+            "location": "Samarcanda"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Piazza Registan",
+            "price": 0,
+            "location": "Samarcanda",
+            "photos": [
+                "https://www.advantour.com/img/uzbekistan/samarkand/sherdor.jpg",
+                "https://uzbekistan.travel/storage/app/uploads/public/679/76c/310/thumb_4314_600_480_0_0_auto.jpg"
+            ]
+        },
+        {
+            "title": "Nadir Divan Begi Madrasah",
+            "price": 0,
+            "location": "Bukhara",
+            "photos": [
+                "https://www.orexca.com/img/uzbekistan/bukhara/nadir-divan-begi/nadir-divan-begi2.jpg"
+            ]
+        },
+        {
+            "title": "Bacino di Charvak",
+            "price": 0,
+            "location": "Charvak",
+            "photos": [
+                "https://img.freepik.com/foto-premium/paesaggio-con-vista-sul-lago-e-sulle-montagne-uzbekistan-bacino-idrico-di-charvak-natura-dell-asia-centrale_508835-4471.jpg?"
+            ]
+        },
+        {
+            "title": "Centro Besh Qozon Pilaf",
+            "price": 8,
+            "location": "Tashkent",
+            "photos": [
+                "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,dpr=1/tour_img/8d6e5bf30d363e0b34dfeec897555df559c75f03504386318a8f958e9435b280.jpeg"
+            ]
+        },
+        {
+            "title": "Citta mix moderno antico",
+            "price": 8,
+            "location": "Tashkent",
+            "photos": [
+                "https://nbts.it/wp-content/uploads/2020/07/nbts-viaggi-uzbekistan-tashkent-white-Minor-mosque-1024x683.jpg"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 2
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 0
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "",
+            "note": ""
+        },
+        {
+            "what": "Piazza Registan",
+            "where": "Samarcanda",
+            "note": ""
+        },
+        {
+            "what": "Città al mattino",
+            "where": "Samarcanda",
+            "note": "",
+            "internalTravel": {
+                "price": 12,
+                "description": "Treno pranzo (2h)"
+            }
+        },
+        {
+            "what": "Nadir Divan Begi Madrasah",
+            "where": "Bukhara",
+            "note": ""
+        },
+        {
+            "what": "Giro città",
+            "where": "Bukhara",
+            "note": "",
+            "internalTravel": {
+                "price": 15,
+                "description": "Treno serale (7h)"
+            }
+        },
+        {
+            "what": "Giro Città",
+            "where": "Tashkent",
+            "note": ""
+        },
+        {
+            "what": "Giro Città",
+            "where": "Tashkent",
+            "note": ""
+        },
+        {
+            "what": "Viaggio",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Tanto da vedere e girare",
+        "Cucina ottima (spero)"
+    ],
+    "cons": [
+        "Scali lunghi e orari scomodi",
+        "Forse sembra più di quello che poi è",
+        "Non ho trovato da affittare l'auto",
+        "Non si sfrutta il costo del biglietto",
+        "Ci sarebbe tanto da vedere nella natura, ma non so come"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://patuvane.info/pictures/original/samarkand.jpg"
+    }
+}

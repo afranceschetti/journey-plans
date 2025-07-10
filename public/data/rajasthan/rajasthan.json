@@ -1,0 +1,194 @@
+{
+    "key": "rajasthan",
+    "title": "Rajasthan",
+    "colors": {
+        "border": "#7d83c1",
+        "background": "#dbddee",
+        "second": "#fbe5bb"
+    },
+    "country": [
+        {
+            "code": "in",
+            "label": "India"
+        }
+    ],
+    "start": "11/02/2025",
+    "end": "11/11/2025",
+    "averageTemperature": 17,
+    "averagePrices": {
+        "food": 25,
+        "sleep": 60,
+        "car": 0
+    },
+    "returnTravel": {
+        "price": 156,
+        "duration": "31h25",
+        "company": "Oman Air",
+        "stopover": [
+            {
+                "duration": "20h40",
+                "location": "Muscat"
+            }
+        ],
+        "takeoff": {
+            "time": "11/10/2025 15:25",
+            "location": "Nuova Delhi"
+        },
+        "landing": {
+            "time": "11/11/2025 18:20",
+            "location": "Milano Malpensa"
+        }
+    },
+    "outboundTravel": {
+        "price": 167,
+        "duration": "11h35",
+        "company": "Oman Air",
+        "stopover": [
+            {
+                "duration": "2h20",
+                "location": "Muscat"
+            }
+        ],
+        "takeoff": {
+            "time": "11/02/2025 21:30",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "11/03/2025 11:35",
+            "location": "Nuova Delhi"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Tempio Gurudwara Bangla Sahib",
+            "price": 0,
+            "location": "Nuova Delhi",
+            "photos": [
+                "https://s7ap1.scene7.com/is/image/incredibleindia/gurudwara-banga-sahib-delhi-1-attr-hero?"
+            ]
+        },
+        {
+            "title": "Taj Mahal",
+            "price": 0,
+            "location": "Agra",
+            "photos": [
+                "https://treasuretripin.com/wp-content/uploads/2023/12/SECRETS-TO-EXPERIENCE-IN-TAJ-MAHAL.png"
+            ]
+        },
+        {
+            "title": "Agra Fort",
+            "price": 0,
+            "location": "Agra",
+            "photos": [
+                "https://i.pinimg.com/736x/04/c8/59/04c8597eda6b5f85d4a0d5de3c6e3f95.jpg"
+            ]
+        },
+        {
+            "title": "Hawa Mahal",
+            "price": 0,
+            "location": "Jaipur",
+            "photos": [
+                "https://waybird.imgix.net/experiences/kodak_images/000/015/563/original/Visit_Hawa_Mahal__the_Palace_of_Winds.jpg?"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 2
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 0
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Partenza la sera",
+            "where": "",
+            "note": "Milano"
+        },
+        {
+            "what": "Arrivo e Riposo",
+            "where": "Nuova Delhi",
+            "note": ""
+        },
+        {
+            "what": "Città Vecchia",
+            "where": "Nuova Delhi",
+            "note": ""
+        },
+        {
+            "what": "Tempio Gurudwara Bangla Sahib",
+            "where": "Nuova Delhi",
+            "note": ""
+        },
+        {
+            "what": "Agra Fort",
+            "where": "Agra",
+            "note": "",
+            "internalTravel": {
+                "price": 15,
+                "description": "Treno (2h)"
+            }
+        },
+        {
+            "what": "Taj Mahal",
+            "where": "Agra",
+            "note": ""
+        },
+        {
+            "what": "Giro Città",
+            "where": "Jaipur",
+            "note": "",
+            "internalTravel": {
+                "price": 20,
+                "description": "Treno (4h)"
+            }
+        },
+        {
+            "what": "Ritorno a Nuova Delhi",
+            "where": "Nuova Delhi",
+            "note": "",
+            "internalTravel": {
+                "price": 20,
+                "description": "Treno (5h)"
+            }
+        },
+        {
+            "what": "Viaggio e Cena in Oman",
+            "where": "Muscat",
+            "note": ""
+        },
+        {
+            "what": "Viaggio",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Tanto da vedere e girare",
+        "Cucina ottima (spero)"
+    ],
+    "cons": [
+        "Scali lunghi e orari scomodi",
+        "Forse sembra più di quello che poi è",
+        "Non ho trovato da affittare l'auto",
+        "Non si sfrutta il costo del biglietto",
+        "Ci sarebbe tanto da vedere nella natura, ma non so come"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://www.optimatravels.com/images/agra-images/taj-mahal-full-moonlight.jpg",
+        "image_": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noaC-Jj-qkS-EuTOasvsoL96ozol9HnjpURLqNMPc_d4Q93BpCmfRfoGrv8arwg65dR17SbJYoN5VjztO8obE1PZJUDwnqoU3rPpgqcxs3Y_3QNmVzgdkLEuR2JEkOKF4GvM0ok=w1350-h780-n-k-no"
+    },
+    "links": [
+        "https://www.bagaglioleggero.it/triangolo-doro-india-viaggio-fai-da-te/"
+    ]
+}
