@@ -22,6 +22,7 @@ export class Plan {
     cons: string[];
     meta: Meta;
     links: Link[];
+    itineraries: Array<{ label: string, url: string }>
 
     public static calcCosts(plan: Plan): Costs {
         let extrasCost = -1;

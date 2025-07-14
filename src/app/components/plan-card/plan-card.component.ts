@@ -6,11 +6,12 @@ import { faFaceDizzy, faFaceFrown, faFaceGrinStars, faFaceMeh, faFaceSmile } fro
 import { faCloudSun, faPlane, faTemperatureHalf } from '@fortawesome/free-solid-svg-icons';
 import { Plan } from '../../model/Plan';
 import { PlanMetaComponent } from "../plan-meta/plan-meta.component";
+import { SafePipe } from '../../pipe/safe.pipe';
 
 
 @Component({
   selector: 'plan-card',
-  imports: [CommonModule, FontAwesomeModule, FormsModule, PlanMetaComponent],
+  imports: [CommonModule, FontAwesomeModule, FormsModule, PlanMetaComponent, SafePipe],
   templateUrl: './plan-card.component.html',
   styleUrl: './plan-card.component.sass'
 })

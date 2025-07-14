@@ -189,7 +189,7 @@
                 </ul>
             </div>
         </div>
-        <div class="links" *ngIf="plan.links">
+        <div class="links" *ngIf="plan.links && plan.links.length>0">
             <div class="label-row "><strong>Link </strong></div>
             <ul class="">
                 <li *ngFor="let link of plan.links">
@@ -197,6 +197,17 @@
                 </li>
             </ul>
 
+        </div>
+        <div class="map" *ngIf="plan.itineraries">
+            <div class="label-row "><strong>Itinerari </strong></div>
+            <ng-container *ngFor="let it of plan.itineraries">
+                <div class="itinerary-title"><strong>{{it.label}}</strong></div>
+                <div class="itinerary-map">
+                    <iframe [src]="'https://www.google.com/maps/embed?pb='+it.url|safe:'resourceUrl'" width="100%"
+                        height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </ng-container>
         </div>
     </div>
 </div>

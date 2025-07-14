@@ -6,10 +6,12 @@
         "background": "#d6ded4",
         "second": "#d6ded4"
     },
-    "country": {
-        "code": "ro",
-        "label": "Romania"
-    },
+    "country": [
+        {
+            "code": "ro",
+            "label": "Romania"
+        }
+    ],
     "start": "10/17/2025",
     "end": "10/24/2025",
     "averageTemperature": 7.5,

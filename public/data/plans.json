@@ -8,15 +8,8 @@
         ]
     },
     {
-        "country": "Estremo Oriente",
-        "plans": [
-            "pechino"
-        ]
-    },
-    {
         "country": "Asia Centrale",
         "plans": [
-            "rajasthan",
             "uzbekistan",
             "kazakistan",
             "caspiansea"
