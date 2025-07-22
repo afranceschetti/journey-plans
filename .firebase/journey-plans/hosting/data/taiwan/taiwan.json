@@ -1,0 +1,187 @@
+{
+    "key": "taiwan",
+    "title": "Taiwan",
+    "colors": {
+        "border": "#bc1000",
+        "background": "#f8bdb8",
+        "second": "#f8bdb8"
+    },
+    "country": [
+        {
+            "code": "tw",
+            "label": "Taiwan"
+        }
+    ],
+    "start": "10/21/2025",
+    "end": "10/28/2025",
+    "averageTemperature": 17,
+    "averagePrices": {
+        "food": 15,
+        "sleep": 50,
+        "car": 40
+    },
+    "outboundTravel": {
+        "price": 332,
+        "duration": "35h10",
+        "company": "Etihad Air",
+        "stopover": [
+            {
+                "duration": "26h",
+                "location": "Abu Dhabi"
+            }
+        ],
+        "takeoff": {
+            "time": "10/21/2025 10:50",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "10/23/2025 09:35",
+            "location": "Taipei"
+        }
+    },
+    "returnTravel": {
+        "price": 280,
+        "duration": "18h25",
+        "company": "Etihad Air",
+        "stopover": [
+            {
+                "duration": "1h40",
+                "location": "Abu Dhabi"
+            }
+        ],
+        "takeoff": {
+            "time": "10/28/2025 18:40",
+            "location": "Taiwan"
+        },
+        "landing": {
+            "time": "10/29/2025 6:05",
+            "location": "Milano Malpensa"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Taipei",
+            "price": 0,
+            "location": "Taipei",
+            "photos": [
+                "https://images.pexels.com/photos/462615/pexels-photo-462615.jpeg?"
+            ]
+        },
+        {
+            "title": "Keelung",
+            "price": 0,
+            "location": "Keelung",
+            "photos": [
+                "https://images.pexels.com/photos/31797608/pexels-photo-31797608.jpeg"
+            ]
+        },
+        {
+            "title": "Foresta di Wulai",
+            "price": 0,
+            "location": "Wulai",
+            "photos": [
+                "https://images.pexels.com/photos/13326244/pexels-photo-13326244.jpeg"
+            ]
+        },
+        {
+            "title": "Tainan",
+            "price": 0,
+            "location": "Tainan",
+            "photos": [
+                "https://images.pexels.com/photos/31745738/pexels-photo-31745738.jpeg?"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 2
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 0
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Partenza la sera",
+            "where": "",
+            "note": "Milano"
+        },
+        {
+            "what": "Scalo di un giorno",
+            "where": "Abu Dhabi",
+            "note": ""
+        },
+        {
+            "what": "Arrivo al mattino",
+            "where": "Taipei",
+            "note": ""
+        },
+        {
+            "what": "Mercato",
+            "where": "Nuova Delhi",
+            "note": "Keelung"
+        },
+        {
+            "what": "Foresta",
+            "where": "Wulai",
+            "note": ""
+        },
+        {
+            "what": "Costa mozzafiato",
+            "where": "Hualien",
+            "note": ""
+        },
+        {
+            "what": "Gola di Taroco",
+            "where": "Tailuge",
+            "note": ""
+        },
+        {
+            "what": "Giro in città",
+            "where": "Tainan",
+            "note": ""
+        },
+        {
+            "what": "Ritorno a Taipei",
+            "where": "Taipei",
+            "note": ""
+        },
+        {
+            "what": "Viaggio",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Sembra non ci sia nulla, ma i paesaggi sono super",
+        "Costa pochissimo"
+    ],
+    "cons": [
+        "Forse non vale la pena",
+        "Non si sfrutta il costo del biglietto"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://images.pexels.com/photos/260566/pexels-photo-260566.jpeg?"
+    },
+    "links": [
+        {
+            "label": "Il meglio di Taiwan",
+            "url": "https://www.lonelyplanetitalia.it/articoli/consigli-di-viaggio/le-15-migliori-esperienze-da-vivere-a-taiwan"
+        }
+    ],
+    "itineraries": [
+        {
+            "label": "Baku - Riserva dei Petroglifi",
+            "url": "!1m58!1m12!1m3!1d1865587.0813662733!2d119.72577727810811!3d24.04076900038231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x3442ac72bce20a99%3A0x3f6a35cedd0ac2e0!2sTaipei%2C%20Taiwan!3m2!1d25.0329694!2d121.5654177!4m5!1s0x345d4dfdb8837495%3A0x9ef76baa45f26568!2sKeelung%2C%20Taiwan!3m2!1d25.1276033!2d121.7391833!4m5!1s0x34689fbaebc9a657%3A0x1317118a11d952d8!2sHualien%2C%20Taiwan!3m2!1d23.987143399999997!2d121.60140009999999!4m5!1s0x3468836f0cf3867b%3A0x5b536e1ec64c6dc1!2sTaiwan%2C%20Hualien%2C%20Xiulin%20Township%2C%20Taroko%20Gorge!3m2!1d24.1666667!2d121.55!4m5!1s0x346e7ccc953ffe13%3A0xd47f4caaa5dc764e!2sTainan%2C%20Taiwan!3m2!1d22.9998999!2d120.22687579999999!4m5!1s0x346945d13e2357bd%3A0x1fb8750b6d439cd8!2sLukang%2C%20Changhua%2C%20Taiwan!3m2!1d24.075512699999997!2d120.447285!4m5!1s0x3442ac6b61dbbd8b%3A0xbcd1baad5c06a482!2sTaipei%2C%20Taiwan!3m2!1d25.0329636!2d121.5654268!5e0!3m2!1sit!2sit!4v1753088730158!5m2!1sit!2sit"
+        }
+    ]
+}

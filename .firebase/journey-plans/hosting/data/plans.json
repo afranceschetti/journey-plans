@@ -14,5 +14,13 @@
             "kazakistan",
             "caspiansea"
         ]
+    },
+    {
+        "country": "Oriente",
+        "plans": [
+            "rajasthan",
+            "pechino",
+            "taiwan"
+        ]
     }
 ]

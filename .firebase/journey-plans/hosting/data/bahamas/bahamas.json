@@ -1,0 +1,209 @@
+{
+    "key": "bahamas",
+    "title": "Bahamas",
+    "colors": {
+        "border": "#44b2e7",
+        "background": "#bfe5f7",
+        "second": "#ffff83"
+    },
+    "countries": [
+        {
+            "code": "bs",
+            "label": "Bahamas"
+        },
+        {
+            "code": "us",
+            "label": "U.S.A."
+        }
+    ],
+    "start": "11/19/2025",
+    "end": "11/26/2025",
+    "averageTemperature": 14.1,
+    "averagePrices": {
+        "food": 25,
+        "sleep": 40,
+        "car": 25
+    },
+    "outboundTravel": {
+        "price": 226,
+        "duration": "14h30",
+        "company": "Tap Air Portugal",
+        "stopover": [
+            {
+                "duration": "1h50",
+                "location": "Lisbona"
+            }
+        ],
+        "takeoff": {
+            "time": "11/19/2025 6:20",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "11/19/2025 14:50",
+            "location": "Miami"
+        }
+    },
+    "returnTravel": {
+        "price": 172,
+        "duration": "12h30",
+        "company": "Tap Air Portugal",
+        "stopover": [
+            {
+                "duration": "1h45",
+                "location": "Lisbona"
+            }
+        ],
+        "takeoff": {
+            "time": "11/26/2025 16:35",
+            "location": "Miami"
+        },
+        "landing": {
+            "time": "11/27/2025 11:05",
+            "location": "Milano Malpensa"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Baku",
+            "price": 0,
+            "location": "Baku",
+            "photos": [
+                "https://siviaggia.it/wp-content/uploads/sites/2/2024/05/Baku.jpg"
+            ]
+        },
+        {
+            "title": "Riserva dei Petroglifi di Qobustan",
+            "price": 0,
+            "location": "Baku",
+            "photos": [
+                "https://images.lonelyplanetitalia.it/uploads/AV5UZy1WrQHNYAm6Ax5gEbIfvoA5z3Bd.jpg?q=80&p=slider&s=581f04996c41cfc1bf520917e8e34c4a"
+            ]
+        },
+        {
+            "title": "Mangghystau",
+            "price": 0,
+            "location": "Aktau",
+            "photos": [
+                "https://images.lonelyplanetitalia.it/uploads/gettyrf-672748094?q=80&p=slider&s=d47772cc7bb210f8d055137de33a9030"
+            ]
+        },
+        {
+            "title": "Deserto di Bozzhira",
+            "price": 0,
+            "location": "Aktau",
+            "photos": [
+                "https://www.marcovasta.net/viaggi/Mangystau/Immagini/Mangystau55bozzhira02.jpg"
+            ]
+        },
+        {
+            "title": "Kyzylkup (Montagne Tiramisù)",
+            "price": 0,
+            "location": "Aktau",
+            "photos": [
+                "https://www.advantour.com/img/kazakhstan/mangystau/kyzylkup.jpg"
+            ]
+        },
+        {
+            "title": "Lago d'Aral",
+            "price": 0,
+            "location": "Aktau",
+            "photos": [
+                "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRBEfAhropNV-Y4_JXkhwrOTMsJL8LHfJjAshN0ljDMiRVbMyrEodNkj0fc2UW98xIm_tPHtPd08LriyjZr_qQw4qJj4R0lsXJQMk2b-w"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 0
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 2
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "Milano-Miami",
+            "note": ""
+        },
+        {
+            "what": "Giro per la città",
+            "where": "Miami",
+            "note": ""
+        },
+        {
+            "what": "Spostamento",
+            "where": "Miami-Nassau",
+            "note": "Aereo 10:00-11:00",
+            "internalTravel": {
+                "price": 82,
+                "description": ""
+            }
+        },
+        {
+            "what": "Mangghystau",
+            "where": "Aktau",
+            "note": ""
+        },
+        {
+            "what": "Deserto di Bozzhira",
+            "where": "Aktau",
+            "note": ""
+        },
+        {
+            "what": "Kyzylkup (Montagne Tiramisù)",
+            "where": "Aktau",
+            "note": "Notte in Yurta"
+        },
+        {
+            "what": "Spostamento",
+            "where": "Nassau-Miami",
+            "note": "Aereo 17:30-18:35",
+            "internalTravel": {
+                "price": 165,
+                "description": ""
+            }
+        },
+        {
+            "what": "Partenza",
+            "where": "Miami",
+            "note": ""
+        },
+        {
+            "what": "Arrivo",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Tanta natura da vedere",
+        "Posti nuovi"
+    ],
+    "cons": [
+        "Viaggio di ritorno scomodo",
+        "Il lago d'Aral è lontano, bisogna organizzare bene il viaggio, non tappa ferma, ma itinerario"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://www.ncl.com/sites/default/files/FPO_04_SwimmingPig_1920x1008LG.jpg"
+    },
+    "links": [],
+    "itineraries": [
+        {
+            "label": "Baku - Riserva dei Petroglifi",
+            "url": "!1m34!1m12!1m3!1d194896.63675086937!2d49.47459761876278!3d40.24775385885577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2sBaku%2C%20Azerbaigian!3m2!1d40.409261699999995!2d49.8670924!4m5!1s0x403af23d8ccdb76d%3A0x408618c661af12ac!2sQobustan%2C%20Azerbaigian!3m2!1d40.0816193!2d49.4131146!4m5!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2sBaku%2C%20Azerbaigian!3m2!1d40.409261699999995!2d49.8670924!5e0!3m2!1sit!2sit!4v1752505580692!5m2!1sit!2sit"
+        },
+        {
+            "label": "Kazakistan (no lago d'Aral)",
+            "url": "!1m58!1m12!1m3!1d741781.5344517066!2d51.64292689604288!3d43.42751514318253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x41b4321732bc75d7%3A0x7614e1e6630a7769!2sAqtau%2C%20Kazakistan!3m2!1d43.671862999999995!2d51.2120512!4m5!1s0x41b42c15ecb548bd%3A0x923f906f97276ef6!2sMangystau%2C%20Kazakistan!3m2!1d43.6825915!2d51.3072854!4m5!1s0x41b4321732bc75d7%3A0x7614e1e6630a7769!2sAktau%2C%20Kazakistan!3m2!1d43.671862999999995!2d51.2120512!4m5!1s0x41c84bd6d2023edb%3A0x98a9af5dfb0a1dab!2sSenek%2C%20Kazakistan!3m2!1d43.364075!2d53.392229799999996!4m5!1s0x41b4321732bc75d7%3A0x7614e1e6630a7769!2sAktau%2C%20Kazakistan!3m2!1d43.671862999999995!2d51.2120512!4m5!1s0x41b59bad4872bd4b%3A0x17775e2eefb4b040!2sKyzylkum%2C%20Oblys%20di%20Ma%C5%84%C4%9Fystau%2C%20Kazakistan!3m2!1d43.1746726!2d51.3350322!4m5!1s0x41b4321732bc75d7%3A0x7614e1e6630a7769!2sAktau%2C%20Kazakistan!3m2!1d43.671862999999995!2d51.2120512!5e0!3m2!1sit!2sit!4v1752506000758!5m2!1sit!2sit"
+        }
+    ]
+}
