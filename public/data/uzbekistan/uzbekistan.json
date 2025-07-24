@@ -6,7 +6,7 @@
         "background": "#bfe9ff",
         "second": "#ffff83"
     },
-    "country": [
+    "countries": [
         {
             "code": "uz",
             "label": "Uzbekistan"

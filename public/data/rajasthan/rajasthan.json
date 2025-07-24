@@ -6,7 +6,7 @@
         "background": "#dbddee",
         "second": "#fbe5bb"
     },
-    "country": [
+    "countries": [
         {
             "code": "in",
             "label": "India"

@@ -6,7 +6,7 @@
         "background": "#d8eafa",
         "second": "#bad9f5"
     },
-    "country": [
+    "countries": [
         {
             "code": "is",
             "label": "Islanda"

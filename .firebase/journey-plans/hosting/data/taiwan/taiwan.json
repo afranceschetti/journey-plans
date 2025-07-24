@@ -6,7 +6,7 @@
         "background": "#f8bdb8",
         "second": "#f8bdb8"
     },
-    "country": [
+    "countries": [
         {
             "code": "tw",
             "label": "Taiwan"

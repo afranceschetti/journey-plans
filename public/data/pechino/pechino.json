@@ -6,7 +6,7 @@
         "background": "#ffffc9",
         "second": "#ffff83"
     },
-    "country": [
+    "countries": [
         {
             "code": "cn",
             "label": "Cina"

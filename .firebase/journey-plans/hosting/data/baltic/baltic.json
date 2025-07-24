@@ -1,0 +1,202 @@
+{
+    "key": "baltic",
+    "title": "Repubbliche Baltiche",
+    "colors": {
+        "border": "#aec2c2",
+        "background": "#e1e9f0",
+        "second": "#ffff83"
+    },
+    "countries": [
+        {
+            "code": "lt",
+            "label": "Lituania"
+        },
+        {
+            "code": "lv",
+            "label": "Lettonia"
+        },
+        {
+            "code": "ee",
+            "label": "Estonia"
+        }
+    ],
+    "start": "10/11/2025",
+    "end": "10/18/2025",
+    "averageTemperature": 6.1,
+    "averagePrices": {
+        "food": 40,
+        "sleep": 80,
+        "car": 50
+    },
+    "outboundTravel": {
+        "price": 68,
+        "duration": "2h25",
+        "company": "Rayanair",
+        "stopover": [],
+        "takeoff": {
+            "time": "10/11/2025 12:30",
+            "location": "Bergamo Orio al Serio"
+        },
+        "landing": {
+            "time": "10/11/2025 15:55",
+            "location": "Vilnius"
+        }
+    },
+    "returnTravel": {
+        "price": 86,
+        "duration": "2h10",
+        "company": "Rayanair",
+        "stopover": [],
+        "takeoff": {
+            "time": "10/18/2025 10:45",
+            "location": "Helsinki"
+        },
+        "landing": {
+            "time": "10/18/2025 12:55",
+            "location": "Bergamo Orio al Serio"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Vilnius",
+            "price": 0,
+            "location": "Vilnius",
+            "photos": [
+                "https://cityofmercy.lt/wp-content/uploads/2017/12/Vilnius_skaidre2.jpg"
+            ]
+        },
+        {
+            "title": "Collina delle croci",
+            "price": 0,
+            "location": "Riga",
+            "photos": [
+                "https://perfectplaces.it/wp-content/uploads/2020/11/44922938_10212408755189527_7595027214840627200_o-1024x656.jpg"
+            ]
+        },
+        {
+            "title": "Riga",
+            "price": 0,
+            "location": "Riga",
+            "photos": [
+                "https://static2-viaggi.corriereobjects.it/wp-content/uploads/2024/04/Riga-Casa-delle-Teste-Nere.jpg?v=1712065686"
+            ]
+        },
+        {
+            "title": "Parco nazionale Gauja",
+            "price": 0,
+            "location": "Riga",
+            "photos": [
+                "https://paesibaltici.org/wp-content/uploads/2020/09/valmiera-parco-del-gauja-lettonia.jpg"
+            ]
+        },
+        {
+            "title": "Tallin",
+            "price": 0,
+            "location": "Tallin",
+            "photos": [
+                "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/62873cd246c77.jpeg"
+            ]
+        },
+        {
+            "title": "Parco Nazionale Lahemaa",
+            "price": 0,
+            "location": "Tallin",
+            "photos": [
+                "https://visitestonia.com/content-images/501855/lahemaa-en-001-visit-estonia.jpg"
+            ]
+        },
+        {
+            "title": "Helsinki",
+            "price": 0,
+            "location": "Helsinki",
+            "photos": [
+                "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/c775962cbe3ad8e6ec5a7a4a37bcadc456fe86e108720430775491de7f221f65.jpg"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 1
+        },
+        "wheater": {
+            "value": 0
+        },
+        "nature": {
+            "value": 2
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "Milano",
+            "note": ""
+        },
+        {
+            "what": "Giro in città",
+            "where": "Vilnius",
+            "note": ""
+        },
+        {
+            "what": "Collina delle Croci",
+            "where": "Vilnius - Riga",
+            "note": ""
+        },
+        {
+            "what": "Giro in città",
+            "where": "Riga",
+            "note": ""
+        },
+        {
+            "what": "Parco Nazionale Gauja",
+            "where": "Riga - Tallin",
+            "note": ""
+        },
+        {
+            "what": "Parco Nazionale Lahemaa",
+            "where": "Tallin",
+            "note": ""
+        },
+        {
+            "what": "Giro in città",
+            "where": "Tallin - Hensilky",
+            "note": "",
+            "internalTravel": {
+                "price": 35,
+                "description": "Traghetto 2h mattina"
+            }
+        },
+        {
+            "what": "Ritorno",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Mix di natura con città",
+        "Viaggio on the road"
+    ],
+    "cons": [
+        "Forse ci sono stagioni migliori"
+    ],
+    "meta": {
+        "fontSize": "80",
+        "image": "https://blog.airbaltic.com/wp-content/uploads/2021/05/airbaltic_blog_baltics_nature_trails_wild_horses-790x474.jpg"
+    },
+    "links": [
+        {
+            "label": "Repubbliche Baltiche",
+            "url": "https://paesibaltici.org/"
+        }
+    ],
+    "itineraries": [
+        {
+            "label": "",
+            "url": "!1m40!1m12!1m3!1d9394513.74113251!2d24.342035693252928!3d54.91025053400102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e0!4m5!1s0x46dd94e4449499e9%3A0x7467d2854e6c0d40!2sAeroporto%20Internazionale%20di%20Vilnius%20(VNO)%2C%20Rod%C5%ABnios%20kl.%2010A%2C%20Vilnius%2C%2002189%20Vilniaus%20m.%20sav.%2C%20Lituania!3m2!1d54.6355868!2d25.2854718!4m5!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2sRiga%2C%20Lettonia!3m2!1d56.967694099999996!2d24.105622099999998!4m5!1s0x46929499df5616bf%3A0x400b36d18fc6270!2sTallinn%2C%20Estonia!3m2!1d59.436960799999994!2d24.753574699999998!4m5!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2sHelsinki%2C%20Finlandia!3m2!1d60.1698557!2d24.9383791!5e0!3m2!1sit!2sit!4v1753372334084!5m2!1sit!2sit"
+        }
+    ]
+}

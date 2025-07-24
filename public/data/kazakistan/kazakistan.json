@@ -6,7 +6,7 @@
         "background": "#efe5b8",
         "second": "#ffff83"
     },
-    "country": [
+    "countries": [
         {
             "code": "kz",
             "label": "Kazakistan"

@@ -6,7 +6,7 @@
         "background": "#dcd1c4",
         "second": "#c6b39e"
     },
-    "country": [
+    "countries": [
         {
             "code": "gr",
             "label": "Grecia"

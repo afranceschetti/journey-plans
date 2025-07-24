@@ -6,7 +6,7 @@
         "background": "#d6ded4",
         "second": "#d6ded4"
     },
-    "country": [
+    "countries": [
         {
             "code": "ro",
             "label": "Romania"
