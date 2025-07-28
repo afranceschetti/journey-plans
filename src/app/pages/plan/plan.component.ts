@@ -3,10 +3,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, Input } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faIdBadge } from '@fortawesome/free-regular-svg-icons';
+import { faHome, faShareNodes } from '@fortawesome/free-solid-svg-icons';
 import { PlanCardComponent } from "../../components/plan-card/plan-card.component";
 import { Plan, Points } from '../../model/Plan';
-import { faIdBadge } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'plan',
@@ -22,8 +23,12 @@ export class PlanComponent {
 
   faHome = faHome;
   faIdBadge = faIdBadge;
-
+  faShareNodes = faShareNodes;
+  faWhatsapp = faWhatsapp;
+  faTelegram = faTelegram;
   plan: Plan;
+
+  shareUrl: string;
 
   constructor(private route: ActivatedRoute, private httpClient: HttpClient) { }
 
@@ -54,6 +59,8 @@ export class PlanComponent {
       if (this.plan.points) {
         this.plan.points = new Points(data.points.culture.value, data.points.wheater.value, data.points.nature.value, data.points.price.value)
       }
+
+      this.shareUrl = encodeURIComponent("https://journey-plans.web.app/meta/" + this.plan.key + ".html")
     });
   }
 
@@ -61,6 +68,10 @@ export class PlanComponent {
     console.log("first", first);
     console.log("second", second);
     return Math.round((second.getTime() - first.getTime()) / (1000 * 60 * 60 * 24)) + 1
+  }
+
+  shareLink() {
+    navigator.clipboard.writeText("https://journey-plans.web.app/meta/" + this.plan.key + ".html");
   }
 
 }

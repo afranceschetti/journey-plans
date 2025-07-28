@@ -4,9 +4,16 @@
     </ng-container>
     <ng-container *ngIf="!onlyCard">
         <div class="home">
-            <a routerLink="/"><fa-icon [icon]="faHome"></fa-icon> Home</a>
-            <a routerLink="/plan-meta/{{plan.key}}"><fa-icon [icon]="faIdBadge"></fa-icon> Scheda riassuntiva</a>
-
+            <a routerLink="/"><fa-icon [icon]="faHome"></fa-icon></a>
+            <a routerLink="/plan-meta/{{plan.key}}"><fa-icon [icon]="faIdBadge"></fa-icon> </a>
+            <div class="filler"></div>
+            <strong>Condividi</strong>
+            <a href="whatsapp://send?text={{shareUrl}}" data-action="share/whatsapp/share"><fa-icon
+                    [icon]="faWhatsapp"></fa-icon></a>
+            <a href="https://telegram.me/share/url?url={{shareUrl}}&text=ciao"><fa-icon
+                    [icon]="faTelegram"></fa-icon></a>
+            <a (click)="shareLink()">
+                <fa-icon [icon]="faShareNodes"></fa-icon> </a>
         </div>
         <div class="plan-wrapper">
             <plan-card [plan]="plan" [showDetail]="showDetail"></plan-card>
