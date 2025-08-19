@@ -125,7 +125,7 @@
         },
         {
             "what": "Mercato",
-            "where": "Nuova Delhi",
+            "where": "Taipei",
             "note": "Keelung"
         },
         {
@@ -180,7 +180,7 @@
     ],
     "itineraries": [
         {
-            "label": "Baku - Riserva dei Petroglifi",
+            "label": "Taiwan",
             "url": "!1m58!1m12!1m3!1d1865587.0813662733!2d119.72577727810811!3d24.04076900038231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x3442ac72bce20a99%3A0x3f6a35cedd0ac2e0!2sTaipei%2C%20Taiwan!3m2!1d25.0329694!2d121.5654177!4m5!1s0x345d4dfdb8837495%3A0x9ef76baa45f26568!2sKeelung%2C%20Taiwan!3m2!1d25.1276033!2d121.7391833!4m5!1s0x34689fbaebc9a657%3A0x1317118a11d952d8!2sHualien%2C%20Taiwan!3m2!1d23.987143399999997!2d121.60140009999999!4m5!1s0x3468836f0cf3867b%3A0x5b536e1ec64c6dc1!2sTaiwan%2C%20Hualien%2C%20Xiulin%20Township%2C%20Taroko%20Gorge!3m2!1d24.1666667!2d121.55!4m5!1s0x346e7ccc953ffe13%3A0xd47f4caaa5dc764e!2sTainan%2C%20Taiwan!3m2!1d22.9998999!2d120.22687579999999!4m5!1s0x346945d13e2357bd%3A0x1fb8750b6d439cd8!2sLukang%2C%20Changhua%2C%20Taiwan!3m2!1d24.075512699999997!2d120.447285!4m5!1s0x3442ac6b61dbbd8b%3A0xbcd1baad5c06a482!2sTaipei%2C%20Taiwan!3m2!1d25.0329636!2d121.5654268!5e0!3m2!1sit!2sit!4v1753088730158!5m2!1sit!2sit"
         }
     ]

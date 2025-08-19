@@ -1,0 +1,195 @@
+{
+    "key": "armeniageorgia",
+    "title": "Armenia - Georgia",
+    "colors": {
+        "border": "#2e9f2e",
+        "background": "#b8deb8",
+        "second": "#ffff83"
+    },
+    "countries": [
+        {
+            "code": "am",
+            "label": "Armenia"
+        },
+        {
+            "code": "ge",
+            "label": "Georgia"
+        }
+    ],
+    "start": "10/08/2025",
+    "end": "10/16/2025",
+    "averageTemperature": 15,
+    "averagePrices": {
+        "food": 25,
+        "sleep": 60,
+        "car": 50
+    },
+    "outboundTravel": {
+        "price": 46,
+        "duration": "4h40",
+        "company": "Wizz Air",
+        "stopover": [],
+        "takeoff": {
+            "time": "10/08/2025 9:10",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "10/09/2025 15:10",
+            "location": "Kutaisi"
+        }
+    },
+    "returnTravel": {
+        "price": 50,
+        "duration": "4h30",
+        "company": "Wizz Air",
+        "stopover": [],
+        "takeoff": {
+            "time": "10/16/2025 21:25",
+            "location": "Erevan"
+        },
+        "landing": {
+            "time": "10/16/2025 23:55",
+            "location": "Milano Malpensa"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Kutaisi",
+            "price": 0,
+            "location": "Kutaisi",
+            "photos": [
+                "https://www.tripsavvy.com/thmb/q83iq9YC7lmaGvflAhTHuR8ejIQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/beautiful-aerial-view-of-bagrati-cathedral-in-kutaisi-city-in-georgia--1188643337-8638e92398e84326a385d921d66f984d.jpg"
+            ]
+        },
+        {
+            "title": "Batumi",
+            "price": 0,
+            "location": "Batumi",
+            "photos": [
+                "https://www.georgianholidays.com/storage/N1bjaazsv8x6OGkhl3GQn7m1pddNNRHh0rzPbMzY.jpeg",
+                "https://www.shutterstock.com/image-photo/batumi-georgia-september-1-2017-600nw-712424314.jpg"
+            ]
+        },
+        {
+            "title": "Castello di Rabat",
+            "price": 0,
+            "location": "Akhaltsikhe",
+            "photos": [
+                "https://castlesintheworld.wordpress.com/wp-content/uploads/2015/09/castello-di-rabati.jpg"
+            ]
+        },
+        {
+            "title": "Tbilisi",
+            "price": 0,
+            "location": "Tbilisi",
+            "photos": [
+                "https://nbts.it/wp-content/uploads/2020/07/nbts-viaggi-georgia-Tbilisi-centro-storico.jpg"
+            ]
+        },
+        {
+            "title": "Erevan",
+            "price": 0,
+            "location": "Erevan",
+            "photos": [
+                "https://travelawaits.com/wp-content/uploads/2023/06/yerevan-cascades-and-sculptures-armenia-fb.jpg"
+            ]
+        },
+        {
+            "title": "Symphony of Stones",
+            "price": 0,
+            "location": "Erevan",
+            "photos": [
+                "https://www.tourismconnection.it/wp-content/uploads/2021/03/Post-Armenia-3-1.jpg"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 0
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 2
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "Milano-Kutaisi",
+            "note": ""
+        },
+        {
+            "what": "Giro Kutaisi",
+            "where": "Kutaisi-Batumi",
+            "note": ""
+        },
+        {
+            "what": "Giro città",
+            "where": "Batumi",
+            "note": ""
+        },
+        {
+            "what": "Citta e viaggio",
+            "where": "Batumi-Akhaltsikhe",
+            "note": ""
+        },
+        {
+            "what": "Castello di Rabat",
+            "where": "Akhaltsikhe-Tbilisi",
+            "note": ""
+        },
+        {
+            "what": "Giro Città",
+            "where": "Tbilisi",
+            "note": ""
+        },
+        {
+            "what": "Tour",
+            "where": "Tbilisi - Erevan",
+            "note": "Minibus",
+            "internalTravel": {
+                "price": 65,
+                "description": ""
+            }
+        },
+        {
+            "what": "Città e dintorni",
+            "where": "Erevan",
+            "note": ""
+        },
+        {
+            "what": "Giro Città",
+            "where": "Erevan - Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Posti nuovi"
+    ],
+    "cons": [
+        "-"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://a.storyblok.com/f/95452/4500x3003/40e6abb9cc/georgia-kazbegi-national-park-gergeti-trinity-church.jpg/m/1440x960/"
+    },
+    "links": [
+        {
+            "label": "Tbilisi - Erevan",
+            "url": "https://www.envoytours.com/tours/enlinking-caucasus-t-y/"
+        }
+    ],
+    "itineraries": [
+        {
+            "label": "Kutaisi - Erevan",
+            "url": "!1m46!1m12!1m3!1d1512173.6197528199!2d41.94426902196949!3d42.247260641179416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e0!4m5!1s0x405c8ce30e54af2d%3A0xfbec41b2d626656f!2sKutaisi%2C%20Georgia!3m2!1d42.2718339!2d42.7059437!4m5!1s0x406786304ea2d221%3A0x7a3053a9e12ea967!2sBatumi%2C%20Georgia!3m2!1d41.6460978!2d41.6404899!4m5!1s0x4042da8d2d3dd9a1%3A0x177cd54d58eb951b!2sAkhaltsikhe%2C%20Georgia!3m2!1d41.6414204!2d42.9824876!4m5!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2sTbilisi%2C%20Georgia!3m2!1d41.6938026!2d44.801516799999995!4m5!1s0x406aa2dab8fc8b5b%3A0x3d1479ae87da526a!2sErevan%2C%20Armenia!3m2!1d40.187202299999996!2d44.515209!5e0!3m2!1sit!2sit!4v1754067189479!5m2!1sit!2sit"
+        }
+    ]
+}

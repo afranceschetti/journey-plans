@@ -1,0 +1,190 @@
+{
+    "key": "caucasus",
+    "title": "Caucaso",
+    "colors": {
+        "border": "#7cb840",
+        "background": "#d3e7be",
+        "second": "#ffff83"
+    },
+    "countries": [
+        {
+            "code": "az",
+            "label": "Azerbaigian"
+        },
+        {
+            "code": "ge",
+            "label": "Georgia"
+        },
+        {
+            "code": "am",
+            "label": "Armenia"
+        }
+    ],
+    "start": "10/09/2025",
+    "end": "10/16/2025",
+    "averageTemperature": 15,
+    "averagePrices": {
+        "food": 25,
+        "sleep": 60,
+        "car": 25
+    },
+    "outboundTravel": {
+        "price": 260,
+        "duration": "4h40",
+        "company": "Azerbaijan Airlines",
+        "stopover": [],
+        "takeoff": {
+            "time": "10/09/2025 11:25",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "10/09/2025 18:05",
+            "location": "Baku"
+        }
+    },
+    "returnTravel": {
+        "price": 50,
+        "duration": "4h30",
+        "company": "Wizz Air",
+        "stopover": [],
+        "takeoff": {
+            "time": "10/16/2025 21:25",
+            "location": "Erevan"
+        },
+        "landing": {
+            "time": "10/16/2025 23:55",
+            "location": "Milano Malpensa"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Baku",
+            "price": 0,
+            "location": "Baku",
+            "photos": [
+                "https://siviaggia.it/wp-content/uploads/sites/2/2024/05/Baku.jpg"
+            ]
+        },
+        {
+            "title": "Riserva dei Petroglifi di Qobustan",
+            "price": 0,
+            "location": "Baku",
+            "photos": [
+                "https://images.lonelyplanetitalia.it/uploads/AV5UZy1WrQHNYAm6Ax5gEbIfvoA5z3Bd.jpg?q=80&p=slider&s=581f04996c41cfc1bf520917e8e34c4a"
+            ]
+        },
+        {
+            "title": "Tbilisi",
+            "price": 0,
+            "location": "Tbilisi",
+            "photos": [
+                "https://nbts.it/wp-content/uploads/2020/07/nbts-viaggi-georgia-Tbilisi-centro-storico.jpg"
+            ]
+        },
+        {
+            "title": "Erevan",
+            "price": 0,
+            "location": "Erevan",
+            "photos": [
+                "https://travelawaits.com/wp-content/uploads/2023/06/yerevan-cascades-and-sculptures-armenia-fb.jpg"
+            ]
+        },
+        {
+            "title": "Symphony of Stones",
+            "price": 0,
+            "location": "Erevan",
+            "photos": [
+                "https://www.tourismconnection.it/wp-content/uploads/2021/03/Post-Armenia-3-1.jpg"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 0
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 2
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Viaggio",
+            "where": "Milano-Baku",
+            "note": ""
+        },
+        {
+            "what": "Giro città",
+            "where": "Baku",
+            "note": ""
+        },
+        {
+            "what": "Natura Dintorni",
+            "where": "Baku",
+            "note": ""
+        },
+        {
+            "what": "Natura e città",
+            "where": "Baku",
+            "note": "Treno Notturno",
+            "internalTravel": {
+                "price": 22,
+                "description": ""
+            }
+        },
+        {
+            "what": "Giro città",
+            "where": "Tbilisi",
+            "note": ""
+        },
+        {
+            "what": "Natura dintorni",
+            "where": "Tbilisi",
+            "note": ""
+        },
+        {
+            "what": "Tour",
+            "where": "Tbilisi - Erevan",
+            "note": "Minibus",
+            "internalTravel": {
+                "price": 65,
+                "description": ""
+            }
+        },
+        {
+            "what": "Giro Città",
+            "where": "Erevan - Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Posti nuovi"
+    ],
+    "cons": [
+        "Forse troppa carne al fuoco",
+        "In Georgia c'è anche la città Batumi che è un po' fuori rotta"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://www.scacciapensieritour.it/wp-content/uploads/2025/05/Armenia.jpg"
+    },
+    "links": [
+        {
+            "label": "Tbilisi - Erevan",
+            "url": "https://www.envoytours.com/tours/enlinking-caucasus-t-y/"
+        }
+    ],
+    "itineraries": [
+        {
+            "label": "Baku - Erevan",
+            "url": "!1m34!1m12!1m3!1d1545998.916380888!2d45.71257956884449!3d40.81633988315086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x406aa2dab8fc8b5b%3A0x3d1479ae87da526a!2sErevan%2C%20Armenia!3m2!1d40.187202299999996!2d44.515209!4m5!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2sTbilisi%2C%20Georgia!3m2!1d41.6938026!2d44.801516799999995!4m5!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2sBaku%2C%20Azerbaigian!3m2!1d40.409261699999995!2d49.8670924!5e0!3m2!1sit!2sit!4v1754063383894!5m2!1sit!2sit"
+        }
+    ]
+}

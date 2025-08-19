@@ -13,7 +13,9 @@
         "plans": [
             "uzbekistan",
             "kazakistan",
-            "caspiansea"
+            "caspiansea",
+            "armeniageorgia",
+            "caucasus"
         ]
     },
     {
@@ -21,7 +23,8 @@
         "plans": [
             "rajasthan",
             "pechino",
-            "taiwan"
+            "taiwan",
+            "thailand"
         ]
     }
 ]

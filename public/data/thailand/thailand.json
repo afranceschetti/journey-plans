@@ -1,0 +1,215 @@
+{
+    "key": "thailand",
+    "title": "Thailandia",
+    "colors": {
+        "border": "#a7d136",
+        "background": "#f1ffca",
+        "second": "#f8bdb8"
+    },
+    "countries": [
+        {
+            "code": "th",
+            "label": "Thailandia"
+        }
+    ],
+    "start": "01/12/2026",
+    "end": "01/20/2026",
+    "averageTemperature": 17,
+    "averagePrices": {
+        "food": 15,
+        "sleep": 50,
+        "car": 0
+    },
+    "outboundTravel": {
+        "price": 249,
+        "duration": "15h10",
+        "company": "Gulf Air",
+        "stopover": [
+            {
+                "duration": "2h45",
+                "location": "Bahrain "
+            }
+        ],
+        "takeoff": {
+            "time": "01/12/2026 12:10",
+            "location": "Milano Malpensa"
+        },
+        "landing": {
+            "time": "01/13/2026 09:20",
+            "location": "Bangkok"
+        }
+    },
+    "returnTravel": {
+        "price": 239,
+        "duration": "17h00",
+        "company": "Gulf Air",
+        "stopover": [
+            {
+                "duration": "3h",
+                "location": "Bahrain "
+            }
+        ],
+        "takeoff": {
+            "time": "01/24/2026 19:15",
+            "location": "Bangkok"
+        },
+        "landing": {
+            "time": "01/25/2026 6:15",
+            "location": "Milano Malpensa"
+        }
+    },
+    "persons": 4,
+    "extras": [
+        {
+            "title": "Bangkok",
+            "price": 0,
+            "location": "Bangkok",
+            "photos": [
+                "https://images.pexels.com/photos/708764/pexels-photo-708764.jpeg"
+            ]
+        },
+        {
+            "title": "Chiang Mai",
+            "price": 0,
+            "location": "Keelung",
+            "photos": [
+                "https://untrolleyperdue.it/wp-content/uploads/2019/10/Chiang-Mai-Wat-Phra-Singh-tempio.jpg"
+            ]
+        },
+        {
+            "title": "Chiang Rai",
+            "price": 0,
+            "location": "Wulai",
+            "photos": [
+                "https://image-tc.galaxy.tf/wijpeg-7pqufmqti0twcdzzq3btsb5lq/wat-rong-khun_standard.jpg?",
+                "https://mordiefuggiblog.com/wp-content/uploads/2020/02/COPERTINA-1-1022x1024.jpg"
+            ]
+        },
+        {
+            "title": "Santuario Elefanti",
+            "price": 0,
+            "location": "Chinag Mai",
+            "photos": [
+                "https://imgcdn.bokun.tools/50875300-856a-4586-89ad-0e3b2c3633fa.jpeg?"
+            ]
+        },
+        {
+            "title": "Barriera corallina (forse)",
+            "price": 0,
+            "location": "Koh Larn",
+            "photos": [
+                "https://vietasiatravel.com/uploads//Thailand/koh-larn.jpg"
+            ]
+        }
+    ],
+    "points": {
+        "culture": {
+            "value": 2
+        },
+        "wheater": {
+            "value": 1
+        },
+        "nature": {
+            "value": 0
+        },
+        "price": {
+            "value": 1
+        }
+    },
+    "program": [
+        {
+            "what": "Partenza",
+            "where": "",
+            "note": "Milano"
+        },
+        {
+            "what": "Arrivo al mattino",
+            "where": "Bangkok ",
+            "note": ""
+        },
+        {
+            "what": "Arrivo",
+            "where": "Bangkok",
+            "note": ""
+        },
+        {
+            "what": "Giro città ",
+            "where": "Chiang Mai",
+            "note": "Aereo 9:40-10:55",
+            "internalTravel": {
+                "price": 27,
+                "description": ""
+            }
+        },
+        {
+            "what": "Santuari elefanti",
+            "where": "Chinag Mai",
+            "note": "Bus 17:00-20:45",
+            "internalTravel": {
+                "price": 11,
+                "description": ""
+            }
+        },
+        {
+            "what": "Giro Templi",
+            "where": "Chiang Rai",
+            "note": ""
+        },
+        {
+            "what": "Trasferimento",
+            "where": "Chiang Mai - Trat",
+            "note": "Aereo 12:10-17:15",
+            "internalTravel": {
+                "price": 120,
+                "description": ""
+            }
+        },
+        {
+            "what": "Mare",
+            "where": "Koh Chang",
+            "note": ""
+        },
+        {
+            "what": "Mare",
+            "where": "Koh Chang",
+            "internalTravel": {
+                "price": 120,
+                "description": ""
+            }
+        },
+        {
+            "what": "Viaggio",
+            "where": "Milano",
+            "note": ""
+        }
+    ],
+    "pro": [
+        "Nessuno di noi è mai stato",
+        "Sembra non ci sia nulla, ma i paesaggi sono super",
+        "Costa pochissimo"
+    ],
+    "cons": [
+        "Forse non vale la pena",
+        "Non si sfrutta il costo del biglietto"
+    ],
+    "meta": {
+        "fontSize": "120",
+        "image": "https://images.pexels.com/photos/14043410/pexels-photo-14043410.jpeg?"
+    },
+    "links": [
+        {
+            "label": "Elefanti",
+            "url": "https://www.latela.com/blog/460-l-unico-modo-etico-per-conoscere-gli-elefanti-a-chiang-mai-thailandia"
+        },
+        {
+            "label": "Elefanti",
+            "url": "https://elephantjunglesanctuary.com/chiang-mai/"
+        }
+    ],
+    "itineraries": [
+        {
+            "label": "Spostamenti in aereo",
+            "url": "!1m58!1m12!1m3!1d3928001.803500256!2d98.11112478788907!3d15.964548007795267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailandia!3m2!1d13.7563309!2d100.5017651!4m5!1s0x30d7066713c38365%3A0x711554bbb1b60637!2sChiang%20Rai%2C%20Distretto%20di%20Mueang%20Chiang%20Rai%2C%20Provincia%20di%20Chiang%20Rai%2C%20Thailandia!3m2!1d19.910479799999997!2d99.840576!4m5!1s0x30da3a7e90bb6f5d%3A0x98d46270a59b4367!2sChiang%20Mai%2C%20Distretto%20di%20Mueang%20Chiang%20Mai%2C%20Provincia%20di%20Chiang%20Mai%2C%20Thailandia!3m2!1d18.788343899999997!2d98.98530079999999!4m5!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailandia!3m2!1d13.7563309!2d100.5017651!4m5!1s0x31041136a59dca91%3A0x6980c5cafeda61dc!2sTrat%2C%20Thailandia!3m2!1d12.4202239!2d102.5298028!4m5!1s0x310416b31770cc1f%3A0xdfd424b9e3ad2a9!2sKoh%20Chang%2C%20Provincia%20di%20Trat%2C%20Thailandia!3m2!1d12.0479159!2d102.3234816!4m5!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailandia!3m2!1d13.7563309!2d100.5017651!5e0!3m2!1sit!2sit!4v1755176712771!5m2!1sit!2sit"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+@import '../../../../styles/settings/_variables.sass'
+
+header
+    // background: $body-background-color
+    background: transparent
+    position: sticky
+    top: 0
+    width: 100%
+    padding: .8rem
+
+    z-index: 100
+    .navbar
+        .nav-item
+            a
+                font-size: 1rem
+            &.profile-image
+                margin-right: 0
+                margin-left: 1em
+                img
+                    height: 2em
+                    width: 2em
+                    overflow: hidden
+                    border-radius: 100%
+                    box-shadow: $box-shadow
+    .dropdown-menu
+        padding: 0
+        min-width: 3em
+        .dropdown-item
+            cursor: pointer
+            padding: .25em 0
+            text-align: left
+            &:hover
+                background-color: $menu-bar-background
+                a
+                    color: #000
+            .nav-link
+                display: flex
+                gap: .5em
+                align-items: center
+                justify-content: space-between
+                font-size: 0.9em
+                margin: 0
+                color: $body-color
+
+    @media (max-width: 767.98px)
+        padding: 0
+        .navbar-main
+            padding: .5rem 1rem
+        .navbar-sections
+            padding: .5rem 0
+            background: $menu-bar-background
+            display: flex
+            justify-content: center
+            flex-direction: row
+            flex-wrap: wrap
+
+#top
+    font-size: 1.2rem
+    // padding-left: 2rem
+    // padding-right: 2rem
+.navbar-brand
+    display: flex
+    gap: 1em
+.navbar-main
+    align-items: flex-end
